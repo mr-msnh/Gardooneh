@@ -342,7 +342,7 @@
             <div class="ProductList">
                 <div class="FirstRow">
                     <h4>محصولات پرفروش</h4>
-                    <a href="#">مشاهده بیشتر</a>
+                    <a href="Search">مشاهده بیشتر</a>
                     <div class="SpecialOfferItemsListNormalList">
                         <div class="SpecailaOfferItems">
                         <a href="Product">
@@ -458,7 +458,7 @@
                 </div>
                 <div class="FirstRow">
                     <h4>محصولات تازه</h4>
-                    <a href="#">مشاهده بیشتر</a>
+                    <a href="Search">مشاهده بیشتر</a>
                     <div class="SpecialOfferItemsListNormalList">
                         <div class="SpecailaOfferItems">
                         <a href="Product">
@@ -588,7 +588,7 @@
             <div class="ItemsListSingle">
                 <div class="FirstRow">
                     <h4>محصولات پربازدید</h4>
-                    <a href="#">مشاهده بیشتر
+                    <a href="Search">مشاهده بیشتر
                     </a>
                     <div class="SpecialOfferItemsListNormalList">
                         <div class="SpecailaOfferItems">
