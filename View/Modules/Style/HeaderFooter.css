@@ -391,12 +391,6 @@ span {
         height: 43px;
         width: 106px;
     }
-    .Container {
-        display: none;
-    }
-    .MainFooter {
-        display: none;
-    }
 }
 @media only screen and (max-width: 1200px) {
     .HeaderBottomRight > ul > li {
@@ -478,6 +472,9 @@ span {
     }
 }
 @media only screen and (max-width: 500px) {
+    .HeaderBottomRight > ul > li > .HBRSubmenu {
+        width: 234px;
+    }
     .HTLBox {
         display: none;
     }
