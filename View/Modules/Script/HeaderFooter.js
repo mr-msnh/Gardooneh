@@ -5,7 +5,10 @@ $(document).ready(function()
     let SubmenuTitle = $(".HBRSubmenu > div");
     $(MenuItem).hover(function()
     {
-        $(" > .HBRSubmenu", this).stop(true).fadeToggle();
+        $(" > .HBRSubmenu", this).stop(true).fadeIn();
+    }, function()
+    {
+        $(" > .HBRSubmenu", this).stop(true).fadeOut();
     });
     $(SubmenuTitle).hover(function()
     {
@@ -13,5 +16,18 @@ $(document).ready(function()
     }, function()
     {
         $(".HBRSubmenuTitle > a > img", this).attr("src", "./Asset/Icons/MenuItemsIcons/LeftArrow.png");
+    });
+
+    //Menu Mobile Mechanism
+    let MenuIcon = $(".HeaderBottomRight > span");
+    let MainMenu = $(".HeaderBottomRight > ul");
+
+    MenuIcon.click(function()
+    {
+        MainMenu.stop(true).fadeToggle();
+    });
+    $(".Container").click(function()
+    {
+        MainMenu.fadeOut();
     });
 });

@@ -49,6 +49,7 @@
         <div class="MainFrame">
             <!-- Start of HeaderBottom Right -->
             <div class="HeaderBottomRight">
+                <span><i class="far fa-bars fa-2x"></i></span>
                 <ul>
                     <li>
                         <a href="Search">مواد غذایی</a>

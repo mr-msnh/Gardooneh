@@ -194,13 +194,13 @@
     color: #5f5f5f;
 }
 .Store-Intro {
-    float: right;
+    float: left;
     overflow: hidden;
     border-radius: 15px;
     background-color: #f5f5f5;
     border: 1px solid #eee;
     width: 401px;
-    margin-right: 94px;
+    /* margin-right: 70px; */
     /* margin-top: 83px; */
     height: auto;
     padding: 25px;

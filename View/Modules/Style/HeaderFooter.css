@@ -21,7 +21,7 @@ span {
 }
 
 .MainFrame {
-    width: 1400px;
+    width: 92%;
     margin: 0px auto;
 }
 .NoBoarder {
@@ -131,6 +131,18 @@ span {
 .HeaderBottomRight {
     float: right;
 }
+.HeaderBottomRight > span {
+    padding: 5px;
+    margin-top: 7px;
+    margin-right: 22px;
+    display: none;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.HeaderBottomRight > span:hover {
+    color: #414141;
+    transition: .2s ease;
+}
 .HeaderBottomRight > ul {
     
     display: flex;
@@ -224,6 +236,7 @@ span {
 }
 .HeaderBottomLeft > input {
     margin-top: 14px;
+    margin-left: 25px;
     height: 35px;
     font-size: 13px;
     border-radius: 10px;
@@ -369,20 +382,106 @@ span {
 
 /* Lower Resolution */
 @media only screen and (max-width: 1400px) {
+    .MainFrame {
+        width: 97%;
+    }
     
+    .HeaderBottomLeft > input {
+        margin-top: 9px;
+        height: 43px;
+        width: 106px;
+    }
+    .Container {
+        display: none;
+    }
+    .MainFooter {
+        display: none;
+    }
 }
 @media only screen and (max-width: 1200px) {
-
+    .HeaderBottomRight > ul > li {
+        font-size: 13px;
+        font-weight: 500;
+        padding-right: 11px;
+        padding-left: 10px;
+    }
+    .HeaderBottomLeft > input {
+        margin-top: 12px;
+        height: 36px;
+        width: 103px;
+        font-size: 12px;
+    }
 }
 @media only screen and (max-width: 1000px) {
-
+    .HTRSearch > input {
+        display: none;
+    }
+    .HTRSearch > img {
+        display: none;
+    }
+    .HeaderBottomRight > ul > li {
+    font-weight: normal;
+    padding-right: 6px;
+    padding-left: 6px;
+    }
+    .HeaderBottomLeft > input {
+        display: none;
+    }
+    .HeaderTopLeft {
+        margin-top: 12px;
+    }
 }
 @media only screen and (max-width: 800px) {
-
+    .HTLBox > a > img {
+        margin-right: 35px;
+        width: 18px;
+    }
+    .HeaderBottomRight > ul {
+        display: none;
+        margin-top: 10px;
+        background: #f7f7f7;
+        position: absolute;
+    }
+    .HeaderBottomRight > ul > li {
+        float: none;
+    }
+    .HeaderBottomRight > ul > li > .HBRSubmenu {
+        right: 163px;
+        top: 0px;
+        width: 335px;
+        height: 397px;
+        overflow: auto;
+    }
+    .HBRSubmenu > div:last-child {
+        display: none;
+    }
+    .HeaderBottomRight > span {
+        display: block;
+    }
 }
 @media only screen and (max-width: 600px) {
-
+    .HTRLogo > a > img {
+        width: 145px;
+    }
+    .HTLBox > a > p {
+        font-size: 11px;
+        width: 76px;
+    }
+    .HTLBox > a > img {
+        margin-right: 27px;
+    }
+    .HTLBox {
+        width: 75px;
+    }
+    .HTRSearch {
+        margin-right: 0px;
+    }
 }
-@media only screen and (max-width: 400px) {
-
+@media only screen and (max-width: 500px) {
+    .HTLBox {
+        display: none;
+    }
+    .HTLBox:last-child {
+        display: block;
+    }
 }
