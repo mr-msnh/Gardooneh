@@ -358,8 +358,8 @@
 /* Responsive for Media Starts */
 /* Higher Resolution */
 @media only screen and (min-width: 1900px) {
-    .Container {
-            width: fit-content;
+    .HeaderBottomRight > ul > li {
+        padding-bottom: 19px;
     }
 }
 
