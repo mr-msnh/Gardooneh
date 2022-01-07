@@ -1,0 +1,464 @@
+.Extend {
+    height: 725px !important;
+}
+/* --------------------------------------Start of Container------------------------------------ */
+.Container {
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
+    background-color: #f0f0f0;
+}
+/* S of Nav-Map*/
+.Nav-Map { 
+    background-color: #fff;
+    /* overflow: hidden; */
+    padding-top: 10px;
+}
+.Map-Item {
+    margin: 0px auto;
+    width: max-content;
+    overflow: hidden;
+    position: relative;
+    top: 10px;
+}
+.Map-Item > .Map-Section {
+    float: right;
+    margin-left: 200px;
+    cursor: pointer;
+}
+.Map-Item > .Map-Section:last-child {
+    margin-left: 0px;
+}
+.Map-Item > .Map-Section > p {
+    color: #706c6c;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 14px;
+}
+.Map-Item > .Map-Section > span {
+    width: 17px;
+    height: 17px;
+    border-radius: 50px;
+    background-color: #706c6c;
+    margin: 0 auto;
+}
+.Map-Line {
+    clear: both;
+    margin: 0px auto;
+    width: 61%;
+    height: 3px;
+    background-color: #706c6c;
+}
+.Map-Line .Fill-Color { 
+    background-color: #00c3c3;
+    width: 0%;
+    height: 3px;
+}
+.Map-Section-Active > span {
+    background-color: #00c3c3 !important;
+}
+.Map-Section-Active > p {
+    color: #00c3c3 !important;
+}
+/* E Nav-Map */
+/* S Main-Section*/
+.Main-Section {
+    margin-top: 40px;
+    float: right;
+    width: 62%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.Main-Section > div {
+    display: none;
+}
+    /* S of Section-Card */
+.Section-Card {
+    width: 100%;
+    height: 100%;
+}
+.Section-Card > .Section-Title {
+    background-color: #e8e8e8;
+    text-align: center;
+    padding: 12px;
+    color: #7f7f7f;
+    font-weight: 600;
+    font-size: 15px;
+}
+.Section-Card > .Section-Content {
+    padding: 15px;
+}
+.Order-Item {
+    padding: 15px;
+    border-bottom: 1px solid #e1e1e1;
+    overflow: hidden;
+}
+.Order-Item:last-child {
+    border-bottom: none
+}
+.Order-Item > .Item-Image {
+    float: right;
+    width: 98px;
+    height: 98px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-left: 35px;
+}
+.Order-Item > .Item-Image > img {
+    width: 100%;
+}
+.Order-Item > .Item-Title {
+    float: right;
+}
+.Order-Item > .Item-Title > p {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+.Order-Item > .Item-Title > span {
+    color: #636363ee;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.Order-Item > .Item-Title > span > i {
+    float: right;
+    margin-left: 10px;
+}
+.Order-Item > .Item-Title > span:nth-child(2) > i {
+    color: #008000;
+}
+.Order-Item > .Item-Title > span > span {
+    float: right
+}
+.Order-Item > .Item-Rest {
+    float: left;
+}
+.Order-Item > .Item-Rest > i {
+    cursor: pointer;
+    float: left;
+    margin-left: 6px;
+    margin-top: 7px;
+}
+.Order-Item > .Item-Rest > span {
+    clear: both;
+    display: inline-block;
+    margin-top: 82px;
+    margin-left: 1px;
+}
+    /* E of Section-Card */
+    /*S of Section-Information */
+.Section-Information {
+    width: 100%;
+    height: 100%;
+}
+.Section-Information > .Section-Title {
+    background-color: #e8e8e8;
+    text-align: center;
+    padding: 12px;
+    color: #7f7f7f;
+    font-weight: 600;
+    font-size: 15px;
+}
+.Section-Information > .Section-Content {
+    padding: 15px;
+}
+.Section-Information > .Section-Content > p {
+    color: #00c3c3;
+    font-weight: 700;
+    margin-bottom: 16px;
+    font-size: 17px;
+}
+.Section-Information > .Section-Content > .Content-Box {
+    font-size: 14px;
+    margin-bottom: 14px;
+    display: inline-block;
+    width: 100%;
+}
+.Section-Information > .Section-Content > .Content-Box > span {
+    color: #7a7a7a;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.Section-Information > .Section-Content > .Content-Box > input {
+    outline: none;
+    background-color: #fcfcfc;
+    border: 1px solid #d9d9d9;
+    padding: 8px;
+    width: 98%;
+    height: 40px;
+}
+.Section-Information > .Section-Content > input {
+    width: 98%;
+    border: none;
+    margin-top: 17px;
+    margin-bottom: 5px;
+    background-color: #2586ff;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 12px;
+    border-radius: 3px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+.Section-Information > .Section-Content > input:hover {
+    background-color: #4d9af8;
+    transition: .2s ease;
+}
+.Small-Box {
+    width: 49% !important;
+}
+    /* E of Section-Information */
+    /* S of Section-Payment */
+.Section-Payment {
+    width: 100%;
+    height: 100%;
+}
+.Section-Payment > .Section-Title {
+    background-color: #e8e8e8;
+    text-align: center;
+    padding: 12px;
+    color: #7f7f7f;
+    font-weight: 600;
+    font-size: 15px;
+}
+.Section-Payment > .Section-Content {
+    padding: 15px;
+}
+.Section-Payment > .Section-Content > p {
+    color: #00c3c3;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.Payment-Options {
+    padding: 8px;
+    margin-top: 15px;
+    color: #6e6e6e;
+}
+.Payment-Options > .Option-Pay {
+    border-bottom: 1px solid #ececec;
+    padding: 5px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.Payment-Options > .Option-Pay:last-child {
+    margin-bottom: 0px;
+}
+.Payment-Options > .Option-Pay > .Option-Select {
+    float: right;
+    margin-left: 25px;
+}
+.Payment-Options > .Option-Pay > .Option-Select > input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    float: right;
+}
+.Payment-Options > .Option-Pay > .Option-Select > i {
+    line-height: 24px;
+    float: right;
+}
+.Payment-Options > .Option-Pay > .Option-Title {
+    float: right;
+    line-height: 4px;
+}
+.Payment-Options > .Option-Pay > .Option-Title > p {
+    font-size: 17px;
+    margin-bottom: 3px;
+    font-weight: 600;
+}
+.Payment-Options > .Option-Pay > .Option-Title > span {
+    font-size: 13px;
+    line-height: 45px;
+}
+.Payment-Note {
+    font-size: 12px;
+    color: #409924;
+    font-weight: 800;
+    padding: 10px;
+    text-align: justify;
+    overflow: hidden;
+}
+.Payment-Note > i {
+    float: right;
+    margin-left: 15px;
+    line-height: 25px;
+}
+.Payment-Action > input {
+    width: 98%;
+    border: none;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    background-color: #2586ff;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 12px;
+    border-radius: 3px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+.Payment-Action > input:hover {
+    background-color: #4d9af8;
+    transition: .2s ease;
+}
+    /* E of Section-Payment */
+/* E of Main-Section */
+    /* S of Section-Result */
+.Section-Result {
+    width: 100%;
+    height: 100%;
+}
+.Section-Result > .Section-Title {
+    background-color: #e8e8e8;
+    text-align: center;
+    padding: 12px;
+    color: #7f7f7f;
+    font-weight: 600;
+    font-size: 15px;
+}
+.Section-Result > .Section-Content {
+    padding: 15px;
+    padding-bottom: 25px;
+}
+.Section-Result > .Section-Content > p {
+    color: #00c3c3;
+    font-weight: 700;
+    margin-bottom: 12px;
+    font-size: 17px;
+}
+.Result-Detail {
+    overflow: hidden;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #dadada;
+    height: 100px;
+}
+.Result-Detail > .Detail-Box {
+    float: right;
+    font-size: 14px;
+}
+.Result-Detail > .Detail-Box > span {
+    float: right;
+}
+.Result-Detail > .Detail-Box > .Field {
+    color: #838383;
+    margin-left: 9px;
+}
+.Result-Detail > .Detail-Box > .Value {
+    color: #303030;
+}
+.Result-Detail > p {
+    clear: right;
+    font-size: 15px;
+    color: #058a3a;
+    padding-top: 13px;
+}
+.Result-Detail > i {
+    float: left;
+    position: relative;
+    top: -62px;
+    left: 31px;
+    color: #187c11;
+    font-size: 65px;
+}
+.Result-Reference > p {
+    margin-right: 25px;
+    font-weight: 600;
+    margin-bottom: 7px;
+    text-align: center;
+}
+.Result-Reference > table {
+    width: 635px;
+    margin: 0px auto;
+}
+.Result-Reference > table > tbody > tr > th {
+    padding: 5px 18px;
+    font-size: 14px;
+    color: #919191;
+}
+.Result-Reference > table > tbody > tr > td {
+    padding: 5px 18px;
+    font-size: 13px;
+}
+    /* E of Section-Result */
+/* E of Main-Section */
+/* S of Side-Pannel */
+.Side-Pannel { 
+    position: sticky;
+    top: 0px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    margin-right: 3%;
+    width: 35%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.Pannel-Title {
+    background-color: #e8e8e8;
+    text-align: center;
+    padding: 12px;
+    color: #7f7f7f;
+    font-weight: 600;
+    font-size: 15px;
+}
+.Pannel-Content {
+    padding: 20px;
+}
+.Pannel-Content > .Main-Price {
+    border-bottom: 1px solid #d8d8d8;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+.Pannel-Content > .Main-Price > div {
+    clear: both;
+}
+.Pannel-Content > .Main-Price > .Content-Off {
+    color: #dd4646;
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.Pannel-Content > .Shipment-Price {
+    padding: 15px 0px;
+    font-size: 14px;
+    clear: both;
+    border-bottom: 1px solid #d8d8d8;
+    overflow: hidden;
+}
+.Pannel-Content > .Final-Price {
+    padding: 15px 0px;
+    font-weight: 600;
+}
+.Pannel-Content > .Note {
+    overflow: hidden;
+    width: max-content;
+    margin: 0px auto;
+    font-size: 13px;
+    color: #007825;
+    font-weight: 600;
+    margin-top: 32px;
+}
+.Pannel-Content > .Note > i {
+    margin-left: 8px;
+    float: right;
+    line-height: 24px;
+    font-size: 16px;
+}
+.Pannel-Content > .Note > span {
+    float: right;
+}
+.Pannel-Content  .Field {
+    float: right;
+}
+.Pannel-Content  .Value {
+    float: left;
+}
+/* E of Side-Pannel */
+/* --------------------------------------End of Container------------------------------------ */

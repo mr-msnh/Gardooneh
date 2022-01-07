@@ -1,0 +1,241 @@
+/* --------------------------------------Start of Container------------------------------------ */
+.Container {
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
+    background-color: #f0f0f0;
+}
+/***** S Nav-Sidebar *****/
+.Nav-Sidebar {
+    width: 25%;
+    height: auto;
+    margin-bottom: 41px;
+    position: sticky;
+    top: 0px;
+    display: inline-block;
+}
+.AdBanner {
+    width: 100%;
+    height: 105px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.AdBanner > img {
+    width: 100%;
+}
+.Sidebar-Menu {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.Menu-Profile {
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+    padding-bottom: 6px;
+    padding: 15px;
+}
+.Menu-Profile > .Profile-Image {
+    float: right;
+    width: 18%;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.Menu-Profile > .Profile-Image > img {
+    width: 100%;
+}
+.Menu-Profile > .Profile-Name {
+    float: right;
+    margin-right: 18px;
+    margin-top: 10px;
+}
+.Menu-Profile > .Profile-Name > .Name {
+    font-size: 15px;
+    padding-bottom: 8px;
+    font-weight: 700;
+}
+.Menu-Profile > .Profile-Name > .Phone {
+    color: #7c7c7c;
+    font-size: 15px;
+}
+.Menu-Profile > .Profile-Logout {
+    float: left;
+    padding-top: 25px;
+    padding-left: 5px;
+}
+.Menu-Profile > .Profile-Logout > a > i {
+    padding: 5px;
+    font-size: 25px;
+    color: #f00e;
+}
+.Menu-Profile > .Profile-Logout > a > i:hover {
+    color: #eb5e5eee;
+}
+.Menu-Items > ul {
+    color: #323232;
+}
+.Menu-Items > ul > li {
+    overflow: hidden;
+}
+.Menu-Items > ul > li > a {
+    overflow: hidden;
+    padding: 20px 22px;
+    transition: .3s;
+}
+.Menu-Items > ul > li > a:hover {
+    background-color: #f5f5f5;
+    transition: .2s;
+}
+.Menu-Items > ul > li > a > i {
+    float: right;
+    padding-left: 40px;
+    line-height: 22px;
+    text-align: center;
+}
+.Menu-Items > ul > li > a > span {
+    float: right;
+}
+/***** E Nav-Sidebar *****/
+/***** S Main-Section *****/
+.Main-Section {
+    float: left;
+    width: 73%;
+    height: auto;
+    border-radius: 8px;
+}
+.Summery-Section {
+    overflow: hidden;
+}
+.Section-Box-Right {
+    float: right;
+    width: 49%;
+    height: auto;
+    color: #585858;
+}
+.Section-Box-Left {
+    float: left;
+    width: 49%;
+    height: auto;
+}
+.Section-Box-Right > h4 , .Section-Box-Left > h4{
+    padding: 17px;
+    font-size: 21px;
+    font-weight: 500;
+    color: #737373;
+}
+.Section-Content {
+    background-color: #fff;
+    border-radius: 3px;
+    padding-bottom: 12px;
+    /* border: 1px solid #cfcfcf; */
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Section-Content > table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.Section-Content > table > tbody > tr > td {
+    border: 1px solid #ededed;
+    width: 50%;
+    padding: 15px;
+}
+.Section-Box-Right > .Section-Content > table > tbody > tr > td {
+    font-weight: 600;
+    padding: 14px;
+    color: #7f7f7f;
+    font-size: 17.5px;
+}
+.Section-Content > table > tbody > tr > td > h6 {
+    padding: 5px;
+}
+.Section-Content > table > tbody > tr > td > p {
+    font-weight: 600;
+    padding: 5px;
+    color: #7f7f7f;
+    font-size: 17px;
+}
+.Section-Content > table > tbody > tr > td > img {
+    width: 59px;
+    float: right;
+    box-shadow: 0px 0px 3px #cbcbcb;
+    border-radius: 3px;
+}
+.Section-Content > table > tbody > tr > td > span {
+    float: right;
+    padding: 0px 20px;
+    font-size: 13px;
+    color: #484848;
+}
+.Section-Content > table > tbody > tr > td > span > span {
+    color: #0cbd00;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.Section-Content > table > tbody > tr > td > i {
+    float: left;
+    padding: 8px;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 19px;
+    cursor: pointer;
+}
+.Section-Content > table > tbody > tr > td > i:hover {
+    background-color: #f1f1f1;
+}
+.Section-Content > a {
+    text-align: center;
+    color: #1ca2bd;
+    border-bottom: 1px dashed #1ca2bd;
+    font-size: 13px;
+    padding: 13px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+.Section-Content > a > i {
+    margin-left: 10px;
+}
+.Rest-Section {
+    margin: 25px 0px;
+}
+.Rest-Section > h4 {
+    padding: 17px;
+    font-size: 21px;
+    font-weight: 500;
+    color: #737373;
+    margin-bottom: 8px;
+}
+.Rest-Section > table {
+    border-radius: 3px;
+    background-color: #fff;
+    border-collapse: collapse;
+}
+.Rest-Section > table > tbody > tr > th {
+    padding: 10px;
+    width: 100px;
+    height: 55px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #9acad6;
+    background-color: #85b3be;
+}
+.Rest-Section > table > tbody > tr > td {
+    padding: 10px;
+    width: 145px;
+    height: 80px;
+    text-align: center;    
+    border: 1px solid #ededed;
+}
+.Rest-Section > table > tbody > tr > td:last-child:hover {
+    cursor: pointer;
+    background-color: #eeeeee;
+}
+/***** E Main-Section *****/
+/* ----------------------End of Nav-Bar------------------------- */
+/* --------------------------------------End of Container------------------------------------ */

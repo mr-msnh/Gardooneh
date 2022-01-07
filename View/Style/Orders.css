@@ -1,0 +1,254 @@
+/* --------------------------------------Start of Container------------------------------------ */
+.Container {
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
+    background-color: #f0f0f0;
+}
+/***** S Nav-Sidebar *****/
+.Nav-Sidebar {
+    width: 25%;
+    height: auto;
+    margin-bottom: 41px;
+    position: sticky;
+    top: 0px;
+    display: inline-block;
+}
+.AdBanner {
+    width: 100%;
+    height: 105px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.AdBanner > img {
+    width: 100%;
+}
+.Sidebar-Menu {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.Menu-Profile {
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+    padding-bottom: 6px;
+    padding: 15px;
+}
+.Menu-Profile > .Profile-Image {
+    float: right;
+    width: 18%;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.Menu-Profile > .Profile-Image > img {
+    width: 100%;
+}
+.Menu-Profile > .Profile-Name {
+    float: right;
+    margin-right: 18px;
+    margin-top: 10px;
+}
+.Menu-Profile > .Profile-Name > .Name {
+    font-size: 15px;
+    padding-bottom: 8px;
+    font-weight: 700;
+}
+.Menu-Profile > .Profile-Name > .Phone {
+    color: #7c7c7c;
+    font-size: 15px;
+}
+.Menu-Profile > .Profile-Logout {
+    float: left;
+    padding-top: 25px;
+    padding-left: 5px;
+}
+.Menu-Profile > .Profile-Logout > a > i {
+    padding: 5px;
+    font-size: 25px;
+    color: #f00e;
+}
+.Menu-Profile > .Profile-Logout > a > i:hover {
+    color: #eb5e5eee;
+}
+.Menu-Items > ul {
+    color: #323232;
+}
+.Menu-Items > ul > li {
+    overflow: hidden;
+}
+.Menu-Items > ul > li > a {
+    overflow: hidden;
+    padding: 20px 22px;
+    transition: .3s;
+}
+.Menu-Items > ul > li > a:hover {
+    background-color: #f5f5f5;
+    transition: .2s;
+}
+.Menu-Items > ul > li > a > i {
+    float: right;
+    padding-left: 40px;
+    line-height: 22px;
+    text-align: center;
+}
+.Menu-Items > ul > li > a > span {
+    float: right;
+}
+/***** E Nav-Sidebar *****/
+/***** S Main-Section *****/
+.Main-Section {
+    float: left;
+    width: 73%;
+    height: auto;
+    border-radius: 8px;
+    background-color: #fff;
+    font-size: 13px;
+}
+.Header-Order {
+    padding: 23px;
+    border-bottom: 1.5px solid #d8d8d8;
+}
+.Header-Order .Field, .List-Order .Field {
+    color: #747474;
+}
+.Header-Order .Value, .List-Order .Value {
+    font-weight: 500;
+}
+.Order-Title {
+    border-bottom: 1px solid #ececec;
+    overflow: hidden;
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+.Order-Title > .Title-Info {
+    float: right;
+    overflow: hidden;
+}
+.Order-Title > .Title-Info > h2 {
+    font-weight: 800;
+    float: right;
+    margin-left: 20px;
+}
+.Order-Title > .Title-Info > span {
+    float: right;
+    margin-left: 26px;
+    line-height: 27px;
+}
+.Order-Title > .Title-Info > i {
+    float: right;
+    font-size: 6px;
+    color: #e2e2e2;
+    line-height: 26px;
+    margin-left: 8px;
+}
+.Order-Title > i {
+    float: left;
+    line-height: 28px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.Order-Title > i:hover {
+    color: #666;
+}
+.Order-Address {
+    padding: 15px 0px;
+    color: #313131;
+    overflow: hidden;
+    border-bottom: 1px solid #ececec;
+}
+.Order-Address > .Address-Field-Contact {
+    float: right;
+    margin-bottom: 15px;
+}
+.Order-Address > .Address-Field-Contact > span {
+    margin-left: 10px;
+    float: right;
+}
+.Order-Address > .Address-Field-Address {
+    clear: both;
+}
+.Order-Address > .Address-Field-Address > span {
+    float: right;
+    margin-left: 10px;
+}
+.Order-Price {
+    padding-top: 15px;
+    overflow: hidden;
+}
+.Order-Price > span {
+    float: right;
+    margin-left: 10px;
+}
+.Order-Price > .Field {
+    color: #008d34;
+}
+.List-Order {
+    margin: 23px;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+}
+.Order-Item {
+    padding: 15px;
+    border-bottom: 1px solid #e1e1e1;
+    overflow: hidden;
+}
+.Order-Item:last-child {
+    border: none;
+}
+.Order-Item > .Item-Image {
+    float: right;
+    width: 98px;
+    height: 98px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-left: 35px;
+}
+.Order-Item > .Item-Image > img {
+    width: 100%;
+}
+.Order-Item > .Item-Title {
+    float: right;
+}
+.Order-Item > .Item-Title > p {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+.Order-Item > .Item-Title > span {
+    color: #636363ee;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.Order-Item > .Item-Title > span > i {
+    float: right;
+    margin-left: 10px;
+}
+.Order-Item > .Item-Title > span:nth-child(2) > i {
+    color: #008000;
+}
+.Order-Item > .Item-Title > span > span {
+    float: right
+}
+.Order-Item > .Item-Rest {
+    float: left;
+}
+.Order-Item > .Item-Rest > i {
+    cursor: pointer;
+    float: left;
+    margin-left: 6px;
+    margin-top: 7px;
+}
+.Order-Item > .Item-Rest > span {
+    clear: both;
+    display: inline-block;
+    margin-top: 82px;
+    margin-left: 1px;
+}
+    
+/***** E Main-Section *****/
+/* ----------------------End of Nav-Bar------------------------- */
+/* --------------------------------------End of Container------------------------------------ */

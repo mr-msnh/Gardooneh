@@ -1,0 +1,346 @@
+/* --------------------------------------Start of Libraries------------------------------------ */
+/* --------------------------------------End of Libraries------------------------------------- */
+/* --------------------------------------Start Common Tags------------------------------------ */
+body {
+    min-height: 100vh;
+}
+/* --------------------------------------End of Common Tags------------------------------------- */
+/* --------------------------------------Start of Container------------------------------------ */
+.Container {
+    background-color: #f0f4f3;
+    width: 100%;
+    height: 200%;
+    padding: 55px 0px;
+    min-height: 100vh;
+}
+                /* ----------------------Start of MainLoginFrame------------------------- */
+.MainLoginFrame {
+    width: 1000px;
+    height: 600px;
+    background-color: #fff;
+    margin: 0px auto;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px #e0e0e0;
+    position: relative;
+    overflow: hidden;
+    /* opacity: .4; */
+    /* filter: blur(2px); */
+}
+                            /* ----------Start of Login----------- */
+.LoginFrame {
+    float: right;
+    width: 60%;
+    height: 100%;
+    overflow: hidden;
+}
+.Login {
+    width: 600px;
+    height: 100%;
+    padding: 120px;
+    box-sizing: border-box;
+}
+.Login > h2 {
+    /* margin-top: 120px; */
+    /* margin-bottom: 60px; */
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    color: #107c5f
+}
+.Login > .SigninBox {
+    padding-top: 30px;
+    position: relative;
+}
+.Login > .SigninBox > input {
+    display: block;
+    margin: 10px auto;
+    width: 330px;
+    height: 48px;
+    border: none;
+    outline: none;
+    background-color: #eeeeee;
+    padding: 13px;
+    color: #6c4040;
+    border-radius: 2px;
+}
+.Login > .SigninBox > #txtEmail {
+    background-image: url('../../Asset/Icons/LoginIcons/Email.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-position-x: 307px;
+    padding-right: 30px;
+}
+.Login > .SigninBox > #txtPassword {
+    background-image: url('../../Asset/Icons/LoginIcons/Password.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-position-x: 307px;
+    padding-right: 30px;
+}
+.Login > .SigninBox > span {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 23px;
+    top: 107px;
+    background-image: url('../../Asset/Icons/LoginIcons/ShowPass.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.Login > .SigninBox > span:hover {
+    opacity: .8;
+    transition: .2;
+}
+.Login > .SigninBox > a {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 13px;
+    color: #373737;
+}
+.Login > .SigninBox > a:hover {
+    color: #5e5e5e;
+}
+.Login > .SigninBox > input[type=submit]
+{
+    margin-top: 24px;
+    background-color: #3aac8d;
+    width: 155px;
+    height: 48px;
+    border-radius: 4px;
+    color: #fff;
+    transition: .3s ease-in;
+    cursor: pointer;
+}
+.Login > .SigninBox > input[type=submit]:hover {
+    background-color: #48d4af;
+    color: #135713;
+    transition: .3s ease-in;
+}                          /* ----------End of Login----------- */
+                            /* ----------Start of CreateAccount----------- */
+.CreateAccountFrame {
+    float: left;
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+}
+.CreateAccount {
+    width: 600px;
+    height: 100%;
+    padding: 120px;
+    float:left;
+}
+.CreateAccount > h2 {
+    /* margin-top: 120px; */
+    /* margin-bottom: 60px; */
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    color: #107c5f
+}
+.CreateAccount > .SignupBox {
+    padding-top: 30px;
+    position: relative;
+}
+.CreateAccount > .SignupBox > input {
+    display: block;
+    margin: 10px auto;
+    width: 330px;
+    height: 48px;
+    border: none;
+    outline: none;
+    background-color: #eeeeee;
+    padding: 13px;
+    color: #6c4040;
+    border-radius: 2px;
+}
+.CreateAccount > .SignupBox > #txtEmail {
+    background-image: url('../../Asset/Icons/LoginIcons/Email.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-position-x: 307px;
+    padding-right: 30px;
+}
+.CreateAccount > .SignupBox > #txtName {
+    background-image: url('../../Asset/Icons/LoginIcons/Name.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-position-x: 307px;
+    padding-right: 30px;
+}
+.CreateAccount > .SignupBox > #txtPassword {
+    background-image: url('../../Asset/Icons/LoginIcons/Password.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-position-x: 307px;
+    padding-right: 30px;
+}
+.CreateAccount > .SignupBox > span {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 23px;
+    top: 166px;
+    background-image: url('../../Asset/Icons/LoginIcons/ShowPass.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.CreateAccount > .SignupBox > span:hover {
+    opacity: .8;
+    transition: .2;
+}
+.CreateAccount > .SignupBox > a {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 13px;
+    color: #373737;
+}
+.CreateAccount > .SignupBox > a:hover {
+    color: #5e5e5e;
+}
+.CreateAccount > .SignupBox > input[type=submit]
+{
+    margin-top: 24px;
+    background-color: #3aac8d;
+    width: 155px;
+    height: 48px;
+    border-radius: 4px;
+    color: #fff;
+    transition: .3s ease-in;
+    cursor: pointer;
+}
+.CreateAccount > .SignupBox > input[type=submit]:hover {
+    background-color: #48d4af;
+    color: #135713;
+    transition: .3s ease-in;
+}
+                            /* ----------End of CreateAccount----------- */
+                            /* ----------Start of RollController----------- */
+.RollController {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    background-color: #38b593;
+    top: 0px;
+    left: 0px;
+    color: #fff;
+}
+.RollController > .Logo {
+    float: left;
+    padding: 20px;
+}
+.RollController > .Logo > a {
+    height: 45px;
+    opacity: 0.8;
+}
+.RollController > .Logo > a:hover {
+    opacity: 0.9;
+}
+.RollController > .Title {
+    clear: both;
+    text-align: center;
+    width: 80%;
+    margin: 216px auto 35px auto;    
+    overflow: hidden;
+    height: 115px;
+}
+.RollController > .Title > h2 {
+    font-size: 35px;
+    margin-bottom: 18px;
+}
+.RollController > .Title > .TitleSignIn {
+    display: none;
+}
+.RollController > .Title > p {
+    line-height: 24px;
+    font-size: 15px;
+}
+.RollController > .ActionButton {
+    margin: 0px auto;
+    width: 155px;
+    height: 46px;
+}
+.RollController > .ActionButton > input[type='button'] {
+    border: none;
+    background-color: #38b593;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    width: 153px;
+    height: 44px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 15px;
+    transition: .2s;
+}
+.RollController > .ActionButton > input[type='button']:hover {
+    background-color: #fff;
+    border: 1px solid #38b593;
+    color: #38b593;
+    transition: .5s;
+}
+                            /* ----------End of RollController----------- */
+                /* ----------------------End of MainLoginFrame------------------------- */
+                /* ----------------------Start of ForgotPasswrod------------------------- */
+.ForgotPassword {
+    position: absolute;
+    top: 224px;
+    right: 532px;
+    width: 529px;
+    height: 259px;
+    background-color: #fff;
+    box-shadow: 0px 0px 7px #9e9e9e;
+    border-radius: 10px;
+    padding: 20px;
+    display: none;
+}
+.ForgotPassword > h2 {
+    padding: 20px;
+    text-align: center;
+    color: #107c5f;
+    font-weight: 700;
+}
+.ForgotPassword > input {
+    display: block;
+    margin: 10px auto;
+    width: 330px;
+    height: 48px;
+    border: none;
+    outline: none;
+    background-color: #eeeeee;
+    padding: 13px;
+    color: #6c4040;
+    border-radius: 2px;
+}
+.ForgotPassword > #txtEmail {
+    background-image: url('../../Asset/Icons/LoginIcons/Email.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-position-x: 307px;
+    padding-right: 30px;
+}
+.ForgotPassword > input[type=button]
+{
+    margin-top: 24px;
+    background-color: #3aac8d;
+    width: 155px;
+    height: 48px;
+    border-radius: 4px;
+    color: #fff;
+    transition: .3s ease-in;
+    cursor: pointer;
+}
+.ForgotPassword > span {
+    width: 30px;
+    height: 30px;
+    /* background-color: #ff0000; */
+    background-image: url("../../Asset/Icons/LoginIcons/Close.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+                /* ----------------------End of ForgotPasswrod------------------------- */
+/* --------------------------------------End of Container------------------------------------ */

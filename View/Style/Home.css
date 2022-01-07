@@ -1,0 +1,362 @@
+/* --------------------------------------Start of Container------------------------------------ */
+.Container {
+    background-color: #f8f8f8;
+    padding: 35px 0px;
+    width: 100%;
+}
+                /* ----------------------Start of MainSlide------------------------- */
+.MainSlide {
+    height: 500px;
+    position: relative;
+}
+.MainSlide > .SliderImage {
+    overflow: hidden;
+    width: 1400px;
+    height: 500px;
+}
+.MainSlide > .SliderImage > img {
+    width: 1400px;
+    border-radius: 25px;
+    margin-right: 1px;
+    display: none;
+}
+.MainSlide > .SliderController {
+    position: absolute;
+    bottom: 20px;
+    left: 650px;
+    height: 14px;
+}
+.MainSlide > .SliderController > span {
+    background-color: #fff;
+    border-radius: 50px;
+    width: 12px;
+    height: 12px;
+    display: block;
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.MainSlide > .SliderController > span:hover {
+    background-color: #dad7d7;
+    width: 16px !important;
+    transition: .2s ease-in;
+}
+.SlideSelectedImage {
+    background-color: #ff022c !important;
+    width: 16px !important;
+    transition: .2s ease-in;
+}
+                /* ----------------------End of MainSlide------------------------- */
+                /* ----------------------Start of RollBarTools------------------------- */
+.RollBarTools {    
+    margin-top: 40px;
+    height: 140px;
+}
+.RollBarTools > ul {
+    width: 1000px;
+    list-style-type: none;
+    margin: 0 auto;
+}
+.RollBarTools > ul > li {
+    float: right;
+    position: relative;
+    width: 100px;
+    height: 140px;
+    margin: 0px 32px;
+}
+.RollBarTools > ul > li > a {
+    padding-top: 108px;
+    text-align: center;
+}
+.RollBarTools > ul > li > a > img {
+    width: 88px;
+    position: absolute;
+    top: 8px;
+    right: 6px;
+    border-radius: 45px;
+    box-shadow: 1px 3px 8px #dfdfdf;
+}
+.RollBarTools > ul > li > a:hover img {
+    box-shadow: 2px 4px 15px #bdbdbd;
+}
+.NoBorderRadius > ul > li > a > img {
+    border-radius: 7px !important;
+    box-shadow: 2px 4px 15px #d1d1d1cc !important;
+}
+.NoBorderRadius> ul > li > a:hover img  {
+    box-shadow: 2px 4px 15px #e9e9e9 !important;
+}
+                /* ----------------------End of RollBarTools------------------------- */
+                /* ----------------------Start of SpecialOffer------------------------- */
+.SpecialOffer {
+    margin-top: 30px;
+    background-color: #df3855;
+    color: #fff;
+    height: 407px;
+    margin-bottom: 55px;
+}
+.SpecialOfferTitle {
+    float: right;
+    padding: 48px;
+}
+.SpecialOfferContainer {
+    float: right;
+    width: 1045px;
+    height: 404px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.SpecialOfferItemsList {
+    height: 407px;
+    overflow: hidden;
+    width: 2114px;
+}
+.SpecailaOfferItems {
+    float: right;
+    background-color: #fff;
+    padding: 12px;
+    padding-bottom: 7px;
+    margin-top: 13px;
+    color: #000;
+    border-radius: 18px;
+    margin-left: 25px;
+}
+.SpecailaOfferItems:hover {
+    box-shadow: 0px 0px 3px #bdbdbd;
+}
+.SOTHeader {
+    font-size: 29px;
+    line-height: 40px;
+    word-spacing: -6px;
+    margin-top: 15px;
+    font-weight: 800;
+}
+.SOTTimer {
+    margin-top: 33px;
+    width: 152px;
+    height: 35px;
+    margin-right: 10px;
+}
+.SOTTimer > div {
+    margin: 0px 5px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 19px;
+    color: #000;
+    float: right;
+    background-color: #fdfdfd;
+    border-radius: 5px;
+    width: 34px;
+    height: 34px;
+    padding: 5px;
+    line-height: 30px;
+}
+.SOTTimer > p {
+    float: right;
+    font-weight: 800;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 2px;
+}
+.SOTButtom {
+    margin-top: 63px;
+    width: 183px;
+    position: relative;
+}
+.SOTButtom:hover img {
+    right: 138px;
+    transition: all .2s;
+}
+.SOTButtom > input {
+    font-weight: 500;
+    text-align: right;
+    width: 183px;
+    height: 47px;
+    border-radius: 27px;
+    border: none;
+    font-size: 18px;
+    padding-right: 27px;
+    background-color: #fff;
+    transition: .3s;
+}
+.SOTButtom:hover > input {
+    background-color: #e2f04a;
+    transition: all .2s;
+    box-shadow: 0px 0px 4px #dfdfdf;
+}
+.SOTButtom > img {
+    top: 16px;
+    right: 134px;
+    position: absolute;
+    width: 15px;
+}
+.SOIProduct > img {
+    width: 215px;
+    border-radius: 18px;
+}
+.SOIProductContent {
+    margin-top: 2px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.SOIProductContent > h5 {
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.SOIProductContent > p {
+    font-size: 15px;
+    color: #757575;
+    margin-bottom: 7px;
+}
+.SOIProductContent > .Review {
+    margin-bottom: 5px;
+}
+.SOIProductContent > .Review > .Star {
+    float: right;
+    margin-right: -4px;
+}
+.SOIProductContent > .Review > .Star > img {
+    float: right;
+}
+.SOIProductContent > .Review > .Star > Span {
+    float: right;
+    line-height: 35px;
+    margin-right: 5px;
+}
+.SOIProductContent > .Review > .OffPercent {
+    float: left;
+    line-height: 35px;
+    font-weight: 600;
+    background-color: #dc37555b;
+    color: #f11840;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.SOIProductContent > .AddCart {
+    margin-top:50px;
+}
+.SOIProductContent > .AddCart > img {
+    width: 32px;
+    float: right;
+    margin-right: -6px;
+}
+.SOIProductContent > .AddCart > span {
+    float: left;
+    line-height: 36px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.SOIProductContent > .AddCart > .Price {
+    text-decoration: line-through;
+    color: #6e6e6e;
+    margin-left: 3px;
+}
+.SpecialOfferItemsNext {
+    width: 64px;
+    height: 64px;
+    background-color: #fff6f6d9;
+    border-radius: 50px;
+    position: absolute;
+    top: 165px;
+    left: 24px;
+    cursor: pointer;
+    background-image: url("../../Asset/Icons/MenuItemsIcons/LeftArrow.png");
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position-x: 20px;
+    background-position-y: 21px;
+}
+.SpecialOfferItemsNext:hover {
+    background-color: #fff1f1d9;
+}
+.SpecialOfferItemsPrevious {
+    width: 64px;
+    height: 64px;
+    background-color: #fff6f6d9;
+    border-radius: 50px;
+    position: absolute;
+    top: 165px;
+    right: 10px;
+    cursor: pointer;
+    background-image: url("../../Asset/Icons/MenuItemsIcons/LeftArrow.png");
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position-x: 18px;
+    background-position-y: 20px;
+    transform: rotate(180deg);
+}
+.SpecialOfferItemsPrevious:hover {
+    background-color: #fff1f1d9;
+}
+                /* ----------------------End of SpecialOffer------------------------- */
+                /* ----------------------Start of RollBarTools-NoBorderRadius: L286------------------------- */
+                /* ----------------------Start of RollBarTools-NoBorderRadius: L326------------------------- */
+                /* ----------------------Start of ProductList------------------------- */
+                /* ----------------------Start of ItemsStyle: L408------------------------- */
+.SpecialOfferItemsListNormalList {
+    overflow: hidden;
+    clear: both;
+    height: 403px;
+}
+.ProductList {
+    margin-top: 30px;
+    height: 1000px;
+}
+.FirstRow {
+    margin-top: 30px;
+    height: 465px;
+    margin-right: 34px;
+}
+.FirstRow > h4 {
+    padding: 11px 7px;
+    font-weight: 800;
+    float: right;
+}
+.FirstRow > a {
+    float: left;
+    padding: 11px 7px;
+    margin-left: 63px;
+    font-weight: 800;
+    color: #ff0000;
+}
+.FirstRow > a:hover {
+    color: #e35353;
+}
+                /* ----------------------End of ItemsStyle: L484------------------------- */
+                /* ----------------------End of ProductList------------------------- */
+                /* ----------------------Start of SpecialOfferBanner------------------------- */
+.SpecialOfferBanner {
+    margin-top: 30px;
+    height: 230px;
+}
+.SpecialOfferBanner > .BannerRight {
+    float: right;
+}
+.SpecialOfferBanner img {
+    width: 680px;
+    border-radius: 20px;
+}
+.SpecialOfferBanner > .BannerLeft {
+    float: left;
+}
+                /* ----------------------End of SpecialOfferBanner------------------------- */
+                /* ----------------------Start of ItemsListSingle------------------------- */
+.ItemsListSingle {
+    margin-top: 30px;
+    height: 470px;
+}
+                /* ----------------------End of ItemsListSingle------------------------- */
+                
+/* --------------------------------------End of Container------------------------------------ */
+/* Responsive for Media Starts */
+@media only screen and (max-width: 1200px) {
+    .Container {
+        width: max-content;
+    }
+}
