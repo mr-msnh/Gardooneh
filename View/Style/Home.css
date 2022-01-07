@@ -357,12 +357,12 @@
 
 /* Responsive for Media Starts */
 /* Higher Resolution */
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1900px) {
 
 }
 
 /* Lower Resolution */
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1400px) {
 
 }
 @media only screen and (max-width: 1200px) {
@@ -370,10 +370,10 @@
         width: max-content;
     }
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1000px) {
 
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
 
 }
 @media only screen and (max-width: 600px) {
@@ -382,4 +382,3 @@
 @media only screen and (max-width: 400px) {
 
 }
-
