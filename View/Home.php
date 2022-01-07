@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="./View/Modules/Style/HeaderFooter.css">
     <link rel="stylesheet" href="./View/Style/Home.css">
     <link rel="shortcut icon" type="image/png" href="./Asset/Images/Logo/favicon.png" />
-    <title>MSNH</title>
+    <title>فروشگاه اینترنتی گردونه</title>
 </head>
 <body>
     <!-- Star of MainHeader -->

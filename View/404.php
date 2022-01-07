@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./View/Modules/Style/HeaderFooter.css">
     <link rel="shortcut icon" type="image/png" href="./Asset/Images/Logo/favicon.png" />
-    <title>404</title>
+    <title>صفحه پیدا نشد (404)</title>
 </head>
 <body>
     <!-- Star of MainHeader -->

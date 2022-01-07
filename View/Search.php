@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./View/Modules/Style/HeaderFooter.css">
     <link rel="stylesheet" href="./View/Style/Search.css">
     <link rel="shortcut icon" type="image/png" href="./Asset/Images/Logo/favicon.png" />
-    <title>Search</title>
+    <title>جستجو</title>
 </head>
 <body>
     <!-- Star of MainHeader -->

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./View/Modules/Style/HeaderFooter.css">
     <link rel="stylesheet" href="./View/Style/Product.css">
     <link rel="shortcut icon" type="image/png" href="./Asset/Images/Logo/favicon.png" />
-    <title>Product</title>
+    <title>صفحه محصول</title>
 </head>
 <body>
     <!-- Star of MainHeader -->

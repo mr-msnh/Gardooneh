@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./View/Modules/Style/HeaderFooter.css">
     <link rel="stylesheet" href="./View/Style/Orders.css">
     <link rel="shortcut icon" type="image/png" href="./Asset/Images/Logo/favicon.png" />
-    <title>Orders</title>
+    <title>جزییات سفارشات</title>
 </head>
 <body>
     <!-- Star of MainHeader -->

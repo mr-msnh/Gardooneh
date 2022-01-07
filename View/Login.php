@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./View/Modules/Style/HeaderFooter.css">
     <link rel="stylesheet" href="./View/Style/Login.css">
     <link rel="shortcut icon" type="image/png" href="./Asset/Images/Logo/favicon.png" />
-    <title>Login</title>
+    <title>ورود / ثبت‌نام</title>
 </head>
 <body>
     <!-- Start of Container -->
