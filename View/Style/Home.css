@@ -354,9 +354,3 @@
                 /* ----------------------End of ItemsListSingle------------------------- */
                 
 /* --------------------------------------End of Container------------------------------------ */
-/* Responsive for Media Starts */
-@media only screen and (max-width: 1200px) {
-    .Container {
-        width: max-content;
-    }
-}
