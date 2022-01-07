@@ -363,7 +363,9 @@
 
 /* Lower Resolution */
 @media only screen and (max-width: 1400px) {
-
+    .Container {
+        width: fit-content;
+    }
 }
 @media only screen and (max-width: 1200px) {
     .Container {
