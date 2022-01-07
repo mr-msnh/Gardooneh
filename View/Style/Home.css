@@ -360,7 +360,7 @@
 @media only screen and (min-width: 1900px) {
     .Container {
             width: fit-content;
-        }
+    }
 }
 
 /* Lower Resolution */
