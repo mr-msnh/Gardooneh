@@ -145,8 +145,6 @@ span {
     transition: .2s ease;
 }
 .HeaderBottomRight > ul {
-    
-    display: flex;
     list-style-type: none;
     padding-top: 6px;
     position: relative;
@@ -161,6 +159,7 @@ span {
     font-size: 15px;
     border-left: 1px solid #f0f0f0;
     opacity: 0.90;
+    float: right;
 }
 .HeaderBottomRight > ul > li:hover {
     border-bottom: 2px solid #ff0000;
