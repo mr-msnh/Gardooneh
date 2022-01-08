@@ -532,4 +532,25 @@ span {
     .HTLBox:last-child {
         display: block;
     }
+    .Subscription > input[type = text] {
+        width: 403px;
+    }
+    .Subscription > input[type = button] {
+        left: 50px;
+    }
+    .FooterAboutLeft > .License > a > img {
+        width: 78px;
+    }
 }
+@media only screen and (max-width: 400px) {
+    .Subscription > input[type = text] {
+        width: 403px;
+    }
+    .Subscription > input[type = button] {
+        left: 50px;
+    }
+    .FooterAboutLeft > .License > a > img {
+        width: 78px;
+    }
+}
+
