@@ -172,7 +172,7 @@ span {
     width: 978px;
     background-color: #fff;
     position: absolute;
-    left: 0px;
+    right: 0px;
     top: 61px;
     box-shadow: 0px 2px 4px #dfdfdf;
     color: #0f0f0f;
@@ -283,7 +283,8 @@ span {
     font-size: 14px;
 }
 .FooterAbout {
-    height: 400px;
+    height: auto;
+    overflow: hidden;
 }
 .FooterAboutRight {
     float: right;
@@ -391,6 +392,23 @@ span {
         height: 43px;
         width: 106px;
     }
+
+
+
+
+
+
+
+    .FARColumn > ul {
+        font-size: 14px;
+    }
+    .FARColumn > h6 {
+        font-size: 17px;
+    }
+
+    .Container {
+        display: none;
+    }
 }
 @media only screen and (max-width: 1200px) {
     .HeaderBottomRight > ul > li {
@@ -404,6 +422,18 @@ span {
         height: 36px;
         width: 103px;
         font-size: 12px;
+    }
+
+
+    .FooterAboutLeft {
+        clear: both;
+        float: right;
+        margin-right: 27%;
+        margin-bottom: 20px
+    }
+    .FARColumn > ul {
+        list-style-type: none;
+        font-size: 14px;
     }
 }
 @media only screen and (max-width: 1000px) {
@@ -423,6 +453,15 @@ span {
     }
     .HeaderTopLeft {
         margin-top: 12px;
+    }
+        
+    .Trust {
+
+        margin: 28px auto;
+        margin-bottom: 26px;
+    }
+    .Trust > .TrustItems > img {
+        width: 70px;
     }
 }
 @media only screen and (max-width: 800px) {
@@ -452,6 +491,26 @@ span {
     .HeaderBottomRight > span {
         display: block;
     }
+    .HeaderBottomLeft > input {
+        display: block;
+    }
+    .FooterAboutLeft {
+        margin-right: 0;
+    }
+    .Trust {
+        height: auto;
+        width: auto;
+    }
+    .Trust > .TrustItems {
+        float: none;
+    }
+    .Trust > .TrustItems > img {
+        width: 51px;
+    }
+    .Trust > .TrustItems > p {
+        font-size: 11px;
+    }
+
 }
 @media only screen and (max-width: 600px) {
     .HTRLogo > a > img {
