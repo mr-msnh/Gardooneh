@@ -394,20 +394,11 @@ span {
     }
 
 
-
-
-
-
-
     .FARColumn > ul {
         font-size: 14px;
     }
     .FARColumn > h6 {
         font-size: 17px;
-    }
-
-    .Container {
-        display: none;
     }
 }
 @media only screen and (max-width: 1200px) {
