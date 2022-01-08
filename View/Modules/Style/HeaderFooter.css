@@ -136,6 +136,7 @@ span {
     margin-top: 7px;
     margin-right: 22px;
     display: none;
+    color: #767676;
     cursor: pointer;
     transition: .3s ease;
 }
