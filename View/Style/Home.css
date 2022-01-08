@@ -6,25 +6,26 @@
 }
                 /* ----------------------Start of MainSlide------------------------- */
 .MainSlide {
-    height: 500px;
+    height: auto;
     position: relative;
 }
 .MainSlide > .SliderImage {
     overflow: hidden;
-    width: 1400px;
-    height: 500px;
+    width: auto;
+    height: auto;
 }
 .MainSlide > .SliderImage > img {
-    width: 1400px;
+    width: 100%;
     border-radius: 25px;
     margin-right: 1px;
     display: none;
 }
 .MainSlide > .SliderController {
-    position: absolute;
-    bottom: 20px;
-    left: 650px;
-    height: 14px;
+    position: relative;
+    width: max-content;
+    top: -30px;
+    background: #8d8c8c;
+    margin: 0px auto;
 }
 .MainSlide > .SliderController > span {
     background-color: #fff;
@@ -375,8 +376,11 @@
 
 }
 @media only screen and (max-width: 600px) {
-
+    .MainSlide > .SliderController > span {
+        width: 10px;
+        height: 10px;
+    }
 }
 @media only screen and (max-width: 400px) {
-
+    
 }
