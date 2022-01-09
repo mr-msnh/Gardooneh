@@ -26,8 +26,4 @@ $(document).ready(function()
     {
         MainMenu.stop(true).fadeToggle();
     });
-    $(".Container").click(function()
-    {
-        MainMenu.fadeOut();
-    });
 });
