@@ -485,7 +485,28 @@
     .SpecialOfferContainer > .SpecialOfferItemsList > .SpecailaOfferItems {
         margin-right: 0px;
     }
+    .FARColumn {
+        float: right;
+        padding: 5px;
+        width: 100%;
+        /* margin-left: 75px; */
+        text-align: center;
+    }
+    .SocialNetwork {
+        margin-right: 34%;
+    }
 }
-@media only screen and (max-width: 400px) {
-
+@media only screen and (max-width: 430px) {
+    .SpecailaOfferItems {
+        margin-right: 11%;
+    }
+    .SpecialOfferContainer {
+        margin-right: 20%;
+    }
+    .SpecialOfferTitle {
+        margin-right: 16%;
+    }
+    .RollBarTools > ul {
+        width: 40%;
+    }
 }
