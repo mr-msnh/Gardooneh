@@ -21,7 +21,7 @@ span {
 }
 
 .MainFrame {
-    width: 1400px;
+    width: 92%;
     margin: 0px auto;
 }
 .NoBoarder {
@@ -131,9 +131,20 @@ span {
 .HeaderBottomRight {
     float: right;
 }
+.HeaderBottomRight > span {
+    padding: 5px;
+    margin-top: 7px;
+    margin-right: 22px;
+    display: none;
+    color: #767676;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.HeaderBottomRight > span:hover {
+    color: #414141;
+    transition: .2s ease;
+}
 .HeaderBottomRight > ul {
-    
-    display: flex;
     list-style-type: none;
     padding-top: 6px;
     position: relative;
@@ -148,6 +159,7 @@ span {
     font-size: 15px;
     border-left: 1px solid #f0f0f0;
     opacity: 0.90;
+    float: right;
 }
 .HeaderBottomRight > ul > li:hover {
     border-bottom: 2px solid #ff0000;
@@ -160,7 +172,7 @@ span {
     width: 978px;
     background-color: #fff;
     position: absolute;
-    left: 0px;
+    right: 0px;
     top: 61px;
     box-shadow: 0px 2px 4px #dfdfdf;
     color: #0f0f0f;
@@ -224,6 +236,7 @@ span {
 }
 .HeaderBottomLeft > input {
     margin-top: 14px;
+    margin-left: 25px;
     height: 35px;
     font-size: 13px;
     border-radius: 10px;
@@ -270,7 +283,8 @@ span {
     font-size: 14px;
 }
 .FooterAbout {
-    height: 400px;
+    height: auto;
+    overflow: hidden;
 }
 .FooterAboutRight {
     float: right;
@@ -359,3 +373,191 @@ span {
     text-align: center;
 }
 /* --------------------------------------End of MainFooter------------------------------------ */
+
+/* Responsive for Media Starts */
+/* Higher Resolution */
+@media only screen and (min-width: 1900px) {
+    .HeaderBottomRight > ul > li {
+        padding-bottom: 19px;
+    }
+}
+
+/* Lower Resolution */
+@media only screen and (max-width: 1400px) {
+    .MainFrame {
+        width: 97%;
+    }
+    
+    .HeaderBottomLeft > input {
+        margin-top: 9px;
+        height: 43px;
+        width: 106px;
+    }
+
+
+    .FARColumn > ul {
+        font-size: 14px;
+    }
+    .FARColumn > h6 {
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .HeaderBottomRight > ul > li {
+        font-size: 13px;
+        font-weight: 500;
+        padding-right: 11px;
+        padding-left: 10px;
+    }
+    .HeaderBottomLeft > input {
+        margin-top: 12px;
+        height: 36px;
+        width: 103px;
+        font-size: 12px;
+    }
+
+
+    .FooterAboutLeft {
+        clear: both;
+        float: right;
+        margin-right: 27%;
+        margin-bottom: 20px
+    }
+    .FARColumn > ul {
+        list-style-type: none;
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .HTRSearch > input {
+        display: none;
+    }
+    .HTRSearch > img {
+        display: none;
+    }
+    .HeaderBottomRight > ul > li {
+    font-weight: normal;
+    padding-right: 6px;
+    padding-left: 6px;
+    }
+    .HeaderBottomLeft > input {
+        display: none;
+    }
+    .HeaderTopLeft {
+        margin-top: 12px;
+    }
+        
+    .Trust {
+
+        margin: 28px auto;
+        margin-bottom: 26px;
+    }
+    .Trust > .TrustItems > img {
+        width: 70px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .HTLBox > a > img {
+        margin-right: 35px;
+        width: 18px;
+    }
+    .HeaderBottomRight > ul {
+        display: none;
+        margin-top: 10px;
+        background: #f7f7f7;
+        position: absolute;
+    }
+    .HeaderBottomRight > ul > li {
+        float: none;
+    }
+    .HeaderBottomRight > ul > li > .HBRSubmenu {
+        right: 163px;
+        top: 0px;
+        width: 335px;
+        height: 397px;
+        overflow: auto;
+    }
+    .HBRSubmenu > div:last-child {
+        display: none;
+    }
+    .HeaderBottomRight > span {
+        display: block;
+    }
+    .HeaderBottomLeft > input {
+        display: block;
+    }
+    .FooterAboutLeft {
+        margin-right: 0;
+    }
+    .Trust {
+        height: auto;
+        width: auto;
+    }
+    .Trust > .TrustItems {
+        float: none;
+    }
+    .Trust > .TrustItems > img {
+        width: 51px;
+    }
+    .Trust > .TrustItems > p {
+        font-size: 11px;
+    }
+    .HeaderTop {
+        width: 100%;
+        position: fixed;
+        bottom: 0px;
+        height: 78px;
+        z-index: 100;
+        background: #eee;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .HTRLogo > a > img {
+        width: 145px;
+    }
+    .HTLBox > a > p {
+        font-size: 11px;
+        width: 76px;
+    }
+    .HTLBox > a > img {
+        margin-right: 27px;
+    }
+    .HTLBox {
+        width: 75px;
+    }
+    .HTRSearch {
+        margin-right: 0px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .HeaderBottomRight > ul > li > .HBRSubmenu {
+        width: 234px;
+    }
+    .HTLBox {
+        display: none;
+    }
+    .HTLBox:last-child {
+        display: block;
+    }
+    .Subscription > input[type = text] {
+        width: 403px;
+    }
+    .Subscription > input[type = button] {
+        left: 50px;
+    }
+    .FooterAboutLeft > .License > a > img {
+        width: 78px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .Subscription > input[type = text] {
+        width: 403px;
+    }
+    .Subscription > input[type = button] {
+        left: 50px;
+    }
+    .FooterAboutLeft > .License > a > img {
+        width: 78px;
+    }
+}
+

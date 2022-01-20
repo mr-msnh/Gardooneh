@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./View/Style/Libraries/FontAwesome/all.css">
     <link rel="stylesheet" href="./View/Modules/Style/HeaderFooter.css">
     <link rel="stylesheet" href="./View/Style/Search.css">
     <link rel="shortcut icon" type="image/png" href="./Asset/Images/Logo/favicon.png" />

@@ -16,7 +16,7 @@
             <!-- Start of HeaderTop Left -->
             <div class="HeaderTopLeft">
                 <div class="HTLBox">
-                    <a href="#">
+                    <a href="Weblog">
                         <img src="./Asset/Icons/HeaderItemsIcons/Post.png" alt="Post">
                         <p>پست‌ها</p>
                     </a>
@@ -49,6 +49,7 @@
         <div class="MainFrame">
             <!-- Start of HeaderBottom Right -->
             <div class="HeaderBottomRight">
+                <span><i class="far fa-bars fa-2x"></i></span>
                 <ul>
                     <li>
                         <a href="Search">مواد غذایی</a>
