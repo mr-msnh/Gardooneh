@@ -16,7 +16,7 @@
             <!-- Start of HeaderTop Left -->
             <div class="HeaderTopLeft">
                 <div class="HTLBox">
-                    <a href="#">
+                    <a href="Weblog">
                         <img src="./Asset/Icons/HeaderItemsIcons/Post.png" alt="Post">
                         <p>پست‌ها</p>
                     </a>
