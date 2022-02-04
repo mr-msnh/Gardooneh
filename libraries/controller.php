@@ -84,7 +84,7 @@ class Controller
     
     private function handleRequestedParam()
     {
-        $this->requestedParam = Functions::convertTOCleanArray($this->param, "-", 5);
+        $this->requestedParam = Functions::convertToCleanArray($this->param, "-", 5);
     }
 
     private function handleRequestedAction()
@@ -116,12 +116,12 @@ class Controller
 
     protected function requireControllerView($controllerName, $parameters)
     {
-        require_once ("./application/view/".$controllerName."/index.php");
+        require_once ("./application/view/".Functions::letterToLowerCase($controllerName)."/index.php");
     }
 
     protected function requireControllerModel($controllerName)
     {
-        $modelName = $controllerName."_model";
+        $modelName = Functions::letterToLowerCase($controllerName)."_model";
         require_once ("./application/model/".$modelName.".php");
     }
 }
