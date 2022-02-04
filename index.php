@@ -1,3 +1,4 @@
 <?php
-require_once ("./Application/Application.php");
+require_once ("./libraries/controller.php");
+new Controller();
 ?>
