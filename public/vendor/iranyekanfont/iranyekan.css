@@ -10,7 +10,7 @@
 --------------------------------------------------------------------------------------
 'iranyekan' fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com 
 --------------------------------------------------------------------------------------
-This set of fonts are used in this project under the license: (.....)
+This set of fonts are used in this project under the license: (...)
 --------------------------------------------------------------------------------------
 *	
 **/
@@ -19,31 +19,31 @@ This set of fonts are used in this project under the license: (.....)
 	font-family: 'iranyekan';
 	font-style: normal;
 	font-weight: 300;
-	src: url('../fonts/eot/iranyekanweblight.eot');
-	src: url('../fonts/eot/iranyekanweblight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
-		 url('../fonts/woff/iranyekanweblight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-		 url('../fonts/woff2/iranyekanweblight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
-		 url('../fonts/ttf/iranyekanweblight.ttf') format('truetype');
+	src: url('./webfonts/eot/iranyekanweblight.eot');
+	src: url('./webfonts/eot/iranyekanweblight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('./webfonts/woff/iranyekanweblight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('./webfonts/woff2/iranyekanweblight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('./webfonts/ttf/iranyekanweblight.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'iranyekan';
 	font-style: normal;
 	font-weight: normal;
-	src: url('.../fonts/eot/iranyekanwebregular.eot');
-	src: url('../fonts/eot/iranyekanwebregular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
-		 url('../fonts/woff/iranyekanwebregular.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-		 url('../fonts/woff2/iranyekanwebregular.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
-		 url('../fonts/ttf/iranyekanwebregular.ttf') format('truetype');
+	src: url('./webfonts/eot/iranyekanwebregular.eot');
+	src: url('./webfonts/eot/iranyekanwebregular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('./webfonts/woff/iranyekanwebregular.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('./webfonts/woff2/iranyekanwebregular.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+		 url('./webfonts/ttf/iranyekanwebregular.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'iranyekan';
 	font-style: normal;
 	font-weight: 800;
-	src: url('../fonts/eot/iranyekanwebextrabold.eot');
-	src: url('../fonts/eot/iranyekanwebextrabold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
-		 url('../fonts/woff/iranyekanwebextrabold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-		 url('../fonts/woff2/iranyekanwebextrabold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
-		 url('../fonts/ttf/iranyekanwebextrabold.ttf') format('truetype');
+	src: url('./webfonts/eot/iranyekanwebextrabold.eot');
+	src: url('./webfonts/eot/iranyekanwebextrabold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('./webfonts/woff/iranyekanwebextrabold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('./webfonts/woff2/iranyekanwebextrabold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('./webfonts/ttf/iranyekanwebextrabold.ttf') format('truetype');
 }

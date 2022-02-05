@@ -49,8 +49,8 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-l
 
-RewriteRule ^([^/]+)\/?$ index.php?controller=$1 [QSA,NC,L]
-RewriteRule ^([^/]+)\/([^/]+)\/?$ index.php?controller=$1&param=$2 [QSA,NC,L]
-RewriteRule ^([^/]+)\/([^/]+)\/([^/]+)\/?$ index.php?controller=$1&action=$2&param=$3 [QSA,NC,L]
+RewriteRule ^([a-zA-Z0-9_\-]+)\/?$ index.php?controller=$1 [QSA,NC,L]
+RewriteRule ^([a-zA-Z0-9_\-]+)\/([a-zA-Z0-9_\-&?]+)\/?$ index.php?controller=$1&param=$2 [QSA,NC,L]
+RewriteRule ^([a-zA-Z0-9_\-]+)\/([a-zA-Z0-9_\-&?]+)\/([a-zA-Z0-9_\-&?]+)\/?$ index.php?controller=$1&action=$2&param=$3 [QSA,NC,L]
 
 RewriteRule ([a-zA-Z0-9_\-&?]+(?=\.php)) index.php?controller=$1 [QSA,NC,L]

@@ -1,19 +1,11 @@
-<!DOCTYPE html>
-<html lang="fa">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./View/Style/Libraries/FontAwesome/all.css">
-    <link rel="stylesheet" href="./View/Modules/Style/HeaderFooter.css">
-    <link rel="stylesheet" href="./View/Style/Card.css">
-    <link rel="shortcut icon" type="image/png" href="./Asset/Images/Logo/favicon.png" />
-    <title>ثبت سفارش</title>
-</head>
-<body>
-    <!-- Star of MainHeader -->
-    <?php require_once "./View/Modules/Header.php"; ?>
-    <!-- End of MainHeader -->
+<!-- Start of html_start -->
+<?php require_once "./application/view/modules/html_start.php"; ?>
+<!-- End of html_start -->
+
+    <!-- Start of Header -->
+    <?php require_once "./application/view/modules/header.php"; ?>
+    <!-- End of Header -->
+
     <!-- Star of Container -->
     <div class="Container">
         <div class="MainFrame Extend">
@@ -221,35 +213,35 @@
                     </div>
                     <div class="Section-Content">
                         <p>سفارش شما ثبت گردید.</p>
-                         <div class="Result-Detail">
-                             <div class="Detail-Box">
-                                 <span class="Field">شماره سفارش:</span>
-                                 <span class="Value">DKC-242175455</span>
-                             </div>
-                             <p>سفارش شما در حال پردازش می‌باشد.</p>
-                             <i class="far fa-clipboard-check fa-3x"></i>
-                         </div>
-                         <div class="Result-Reference">
-                             <p>جزییات پرداخت</p>
-                             <table>
-                                 <tr>
-                                     <th>ردیف</th>
-                                     <th>درگاه پرداخت</th>
-                                     <th>شماره پیگری</th>
-                                     <th>زمان</th>
-                                     <th>تاریخ</th>
-                                     <th>وضعیت</th>
-                                 </tr>
-                                 <tr>
-                                     <td>۱</td>
-                                     <td>بانک ملت</td>
-                                     <td>۱۷۴۹۰۹۴۰۶</td>
-                                     <td>۰۷:۰۷:۴۷</td>
-                                     <td>۱۳ دی ۱۴۰۰</td>
-                                     <td>انجام شده</td>
-                                 </tr>
-                             </table>
-                         </div>
+                        <div class="Result-Detail">
+                            <div class="Detail-Box">
+                                <span class="Field">شماره سفارش:</span>
+                                <span class="Value">DKC-242175455</span>
+                            </div>
+                            <p>سفارش شما در حال پردازش می‌باشد.</p>
+                            <i class="far fa-clipboard-check fa-3x"></i>
+                        </div>
+                        <div class="Result-Reference">
+                            <p>جزییات پرداخت</p>
+                            <table>
+                                <tr>
+                                    <th>ردیف</th>
+                                    <th>درگاه پرداخت</th>
+                                    <th>شماره پیگری</th>
+                                    <th>زمان</th>
+                                    <th>تاریخ</th>
+                                    <th>وضعیت</th>
+                                </tr>
+                                <tr>
+                                    <td>۱</td>
+                                    <td>بانک ملت</td>
+                                    <td>۱۷۴۹۰۹۴۰۶</td>
+                                    <td>۰۷:۰۷:۴۷</td>
+                                    <td>۱۳ دی ۱۴۰۰</td>
+                                    <td>انجام شده</td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
                 </div>
                 <!-- E Section-Result -->
@@ -293,11 +285,11 @@
         </div>
     </div>
     <!-- End of Container -->
-    <!-- Star of MainFooter -->
-    <?php require_once "./View/Modules/Footer.php"; ?>
-    <!-- End of MainFooter -->
-</body>
-<script src="./View/Script/Libraries/JQuery.js"></script>
-<script src="./View/Modules/Script/HeaderFooter.js"></script>
-<script src="./View/Script/Card.js"></script>
-</html>
+
+    <!-- Start of Footer -->
+    <?php require_once "./application/view/modules/footer.php"; ?>
+    <!-- End of Footer -->
+
+<!-- Start of html_end -->
+<?php require_once "./application/view/modules/html_end.php"; ?>
+<!-- End of html_end -->

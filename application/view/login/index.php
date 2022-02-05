@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./View/Modules/Style/HeaderFooter.css">
-    <link rel="stylesheet" href="./View/Style/Login.css">
-    <link rel="shortcut icon" type="image/png" href="./Asset/Images/Logo/favicon.png" />
-    <title>ورود / ثبت‌نام</title>
-</head>
-<body>
+<!-- Start of html_start -->
+<?php require_once "./application/view/modules/html_start.php"; ?>
+<!-- End of html_start -->
+
     <!-- Start of Container -->
     <div class="Container">
         <!-- Start of MainLoginFrame -->
@@ -70,7 +62,7 @@
         <!-- End of ForgotPassword -->
     </div>
     <!-- End of Container -->
-</body>
-<script src="./View/Script/Libraries/JQuery.js"></script>
-<script src="./View/Script/Login.js"></script>
-</html>
+
+<!-- Start of html_end -->
+<?php require_once "./application/view/modules/html_end.php"; ?>
+<!-- End of html_end -->

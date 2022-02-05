@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html lang="fa">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./View/Style/Weblog.css" />
-    <link rel="shortcut icon" type="image/png" href="./Asset/Images/Logo/favicon.png" />
-    <title>Weblog</title>
-</head>
-
-<body>
+<!-- Start of html_start -->
+<?php require_once "./application/view/modules/html_start.php"; ?>
+<!-- End of html_start -->
+    
     <!-- S of Header -->
     <header>
         <div class="container container-nav">
@@ -106,7 +98,7 @@
             <p>تمامی حقوق متغلق به بنده می‌باشد</p>
         </div>
     </footer>
-</body>
-<script scr="./View/Script/weblog.js"></script>
 
-</html>
+<!-- Start of html_end -->
+<?php require_once "./application/view/modules/html_end.php"; ?>
+<!-- End of html_end -->

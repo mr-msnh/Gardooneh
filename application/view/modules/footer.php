@@ -1,4 +1,5 @@
-<div class="MainFooter">
+    <!-- Start of MainFooter -->
+    <div class="MainFooter">
         <!-- Star of FooterTop -->
         <div class="FooterTop">
             <div class="MainFrame">
@@ -87,5 +88,6 @@
                 <p>کلیه حقوق مادی و معنوی برای «مجموعه نرم‌افزاری گردونه»، بازار اجتماعی آنلاین، محفوظ است.</p>
             </div>
         </div>
-        <!-- Start of Watermark -->
+        <!-- End of Watermark -->
     </div>
+    <!-- End of MainFooter -->

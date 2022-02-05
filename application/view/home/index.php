@@ -1,19 +1,11 @@
-<!DOCTYPE html>
-<html lang="fa">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./public/Style/Libraries/FontAwesome/all.css">
-    <link rel="stylesheet" href="./public/Modules/Style/HeaderFooter.css">
-    <link rel="stylesheet" href="./public/Style/Home.css">
-    <link rel="shortcut icon" type="image/png" href="./Asset/Images/Logo/favicon.png" />
-    <title>فروشگاه اینترنتی گردونه</title>
-</head>
-<body>
-    <!-- Star of MainHeader -->
-    <?php require_once "./View/Modules/Header.php"; ?>
-    <!-- End of MainHeader -->
+<!-- Start of html_start -->
+<?php require_once "./application/view/modules/html_start.php"; ?>
+<!-- End of html_start -->
+
+    <!-- Start of Header -->
+    <?php require_once "./application/view/modules/header.php"; ?>
+    <!-- End of Header -->
+
     <!-- Star of Container -->
     <div class="Container">
         <div class="MainFrame">
@@ -721,11 +713,11 @@
         </div>
     </div>
     <!-- End of Container -->
-    <!-- Star of MainFooter -->
-    <?php require_once "./View/Modules/Footer.php"; ?>
-    <!-- End of MainFooter -->
-</body>
-<script src="./public/Script/Libraries/JQuery.js"></script>
-<script src="./public/Modules/Script/HeaderFooter.js"></script>
-<script src="./public/Script/Home.js"></script>
-</html>
+
+    <!-- Start of Footer -->
+    <?php require_once "./application/view/modules/footer.php"; ?>
+    <!-- End of Footer -->
+    
+<!-- Start of html_end -->
+<?php require_once "./application/view/modules/html_end.php"; ?>
+<!-- End of html_end -->
