@@ -1,0 +1,1 @@
+<div class="AdBanner"><img src="./Asset/Images/Banners/MiniBanner1.jpg" alt="MiniBanner"></div>

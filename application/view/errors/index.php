@@ -6,7 +6,9 @@
     <?php require_once "./application/view/modules/header.php"; ?>
     <!-- End of Header -->
 
-    <h1>Error <?=$parameters;?></h1>
+    <!-- Start of ErrorContent -->
+    <?php require_once "./application/view/errors/error_content.php"; ?>
+    <!-- End of ErrorContent -->
 
     <!-- Start of Footer -->
     <?php require_once "./application/view/modules/footer.php"; ?>
