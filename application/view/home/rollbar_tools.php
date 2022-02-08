@@ -1,40 +1,14 @@
 <div class="RollBarTools">
     <ul>
+        <?php foreach($parameters["RollbarTools"]["group1"] as $counter=>$rollBar) : ?>
+
         <li>
-            <a href="#">
-                <img src="./Asset/Icons/RollBarTools/Icon1.png" alt="Icon1">
-                هدیه دعوت
+            <a href="<?=PATH_URL_ASSET.$parameters["RollbarTools"]["group1"][$counter]["url"];?>">
+                <img src="<?=PATH_URL_ASSET.$parameters["RollbarTools"]["group1"][$counter]["image"];?>" alt="<?=$parameters["RollbarTools"]["group1"][$counter]["alt"];?>">
+                <?=$parameters["RollbarTools"]["group1"][$counter]["title"];?>
             </a>
         </li>
-        <li>
-            <a href="#">
-                <img src="./Asset/Icons/RollBarTools/Icon6.png" alt="Icon1">
-                تخفیف‌ها
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <img src="./Asset/Icons/RollBarTools/Icon3.png" alt="Icon1">
-                چرخونه
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <img src="./Asset/Icons/RollBarTools/Icon2.png" alt="Icon1">
-                خرید گروهی
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <img src="./Asset/Icons/RollBarTools/Icon4.png" alt="Icon1">
-                بازار به بازار
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <img src="./Asset/Icons/RollBarTools/Icon7.png" alt="Icon1">
-                جایزه بازی
-            </a>
-        </li>
+
+        <?php endforeach; ?>
     </ul>
 </div>

@@ -1,14 +1,16 @@
 <div class="MainSlide">
     <div class="SliderImage">
-        <img src="./Asset/Images/Slides/Slide1.jpg" alt="Slide1">
-        <img src="./Asset/Images/Slides/Slide2.jpg" alt="Slide2">
-        <img src="./Asset/Images/Slides/Slide3.jpg" alt="Slide3">
-        <img src="./Asset/Images/Slides/Slide4.jpg" alt="Slide4">
+        <?php foreach($parameters["MainSlider"] as $counter=>$slide) : ?>
+
+        <img src="<?=PATH_URL_ASSET.$parameters["MainSlider"][$counter]["image"];?>" alt="<?=$parameters["MainSlider"][$counter]["alt"];?>">
+
+        <?php endforeach; ?>
     </div>
     <div class="SliderController">
+        <?php foreach($parameters["MainSlider"] as $counter=>$slide) : ?>
+        
         <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+
+        <?php endforeach; ?>
     </div>
 </div>

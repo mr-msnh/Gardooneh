@@ -1,40 +1,14 @@
 <div class="RollBarTools NoBorderRadius">
     <ul>
+        <?php foreach($parameters["RollbarTools"]["group2"] as $counter=>$rollBar) : ?>
+
         <li>
-            <a href="#">
-                <img src="./Asset/Icons/RollBarTools/Icon10.png" alt="Icon1">
-                مواد غذایی
+            <a href="<?=PATH_URL_ASSET.$parameters["RollbarTools"]["group2"][$counter]["url"];?>">
+                <img src="<?=PATH_URL_ASSET.$parameters["RollbarTools"]["group2"][$counter]["image"];?>" alt="<?=$parameters["RollbarTools"]["group2"][$counter]["alt"];?>">
+                <?=$parameters["RollbarTools"]["group2"][$counter]["title"];?>
             </a>
         </li>
-        <li>
-            <a href="#">
-                <img src="./Asset/Icons/RollBarTools/Icon11.png" alt="Icon1">
-                لباس و پوشاک
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <img src="./Asset/Icons/RollBarTools/Icon12.png" alt="Icon1">
-                فرش و تابلو
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <img src="./Asset/Icons/RollBarTools/Icon13.png" alt="Icon1">
-                صنایع دستی
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <img src="./Asset/Icons/RollBarTools/Icon14.png" alt="Icon1">
-                عطاری
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <img src="./Asset/Icons/RollBarTools/Icon15.png" alt="Icon1">
-                لوازم آرایش
-            </a>
-        </li>
+
+        <?php endforeach; ?>
     </ul>
 </div>
