@@ -1,0 +1,42 @@
+05:36:59  -  2022/02/11
+---------
+PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\Gardooneh\libraries\model.php:11
+Stack trace:
+#0 C:\xampp\htdocs\Gardooneh\libraries\model.php(11): PDO->__construct('mysql:host=loca...', 'root', '123')
+#1 C:\xampp\htdocs\Gardooneh\application\model\home_model.php(6): Model->__construct()
+#2 C:\xampp\htdocs\Gardooneh\application\controller\home.php(11): Home_Model->__construct()
+#3 C:\xampp\htdocs\Gardooneh\libraries\controller.php(76): Home->__construct()
+#4 C:\xampp\htdocs\Gardooneh\libraries\controller.php(27): Controller->handleRequestedContrller()
+#5 C:\xampp\htdocs\Gardooneh\libraries\controller.php(21): Controller->router()
+#6 C:\xampp\htdocs\Gardooneh\index.php(3): Controller->__construct()
+#7 {main}
+_______________________________
+
+05:36:59  -  2022/02/11
+---------
+PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\Gardooneh\libraries\model.php:11
+Stack trace:
+#0 C:\xampp\htdocs\Gardooneh\libraries\model.php(11): PDO->__construct('mysql:host=loca...', 'root', '123')
+#1 C:\xampp\htdocs\Gardooneh\application\model\home_model.php(6): Model->__construct()
+#2 C:\xampp\htdocs\Gardooneh\application\controller\home.php(11): Home_Model->__construct()
+#3 C:\xampp\htdocs\Gardooneh\libraries\controller.php(76): Home->__construct()
+#4 C:\xampp\htdocs\Gardooneh\libraries\controller.php(27): Controller->handleRequestedContrller()
+#5 C:\xampp\htdocs\Gardooneh\libraries\controller.php(21): Controller->router()
+#6 C:\xampp\htdocs\Gardooneh\index.php(3): Controller->__construct()
+#7 {main}
+_______________________________
+
+05:36:59  -  2022/02/11
+---------
+PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\Gardooneh\libraries\model.php:11
+Stack trace:
+#0 C:\xampp\htdocs\Gardooneh\libraries\model.php(11): PDO->__construct('mysql:host=loca...', 'root', '123')
+#1 C:\xampp\htdocs\Gardooneh\application\model\home_model.php(6): Model->__construct()
+#2 C:\xampp\htdocs\Gardooneh\application\controller\home.php(11): Home_Model->__construct()
+#3 C:\xampp\htdocs\Gardooneh\libraries\controller.php(76): Home->__construct()
+#4 C:\xampp\htdocs\Gardooneh\libraries\controller.php(27): Controller->handleRequestedContrller()
+#5 C:\xampp\htdocs\Gardooneh\libraries\controller.php(21): Controller->router()
+#6 C:\xampp\htdocs\Gardooneh\index.php(3): Controller->__construct()
+#7 {main}
+_______________________________
+

@@ -1,31 +1,38 @@
 <?php
 class Home extends Controller
 {
-    private $controllerName = "Home";
+    const CONTROLLER_NAME = "Home";
     private $model;
 
     public function __construct()
     {
-        parent::requireControllerModel($this->controllerName);
-        $modelName = $this->controllerName."_Model";
+        parent::requireControllerModel(self::CONTROLLER_NAME);
+        $modelName = self::CONTROLLER_NAME."_Model";
         $this->model = new $modelName;
     }
     public function default()
     {
-        $mainSlider = ($this->model)->getMainSlider();
-        $rollbarTools = ($this->model)->getRollbarTools();
+        $mainSlider     =   ($this->model)->getMainSlider();
+        $rollbarTools   =   ($this->model)->getRollbarTools();
+        $offerProducts  =   ($this->model)->getOfferProducts();
+        $products       =   ($this->model)->getProducts();
+        $adBanners      =   ($this->model)->getAdBanners();
 
         $defaultData = 
         [
-            "MainSlider"=>$mainSlider,
-            "RollbarTools"=>$rollbarTools
+            "MainSlider"    =>  $mainSlider,
+            "RollbarTools"  =>  $rollbarTools,
+            "OfferProducts" =>  $offerProducts,
+            "Products"      =>  $products,
+            "AdBanners"     =>  $adBanners
         ];
         
-        parent::requireControllerView($this->controllerName, $defaultData);
+        parent::requireControllerView(self::CONTROLLER_NAME, $defaultData);
     }
 
     public function test()
     {
-        ($this->model)->generalQuerySelecte("tbl_main_slider", null, "2", true, true);
+        echo "<p>"."method test is working"."</P>";
+        echo date("Y/m/d  -  h:i:s");
     }
 }

@@ -1,8 +1,8 @@
 <div class="SpecialOfferBanner">
     <div class="BannerRight">
-        <a href="#"><img src="./Asset/Images/Banners/Banner2.jpg" alt="Banner2"></a>
+        <a href="<?=PATH_URL.$parameters["AdBanners"][0]["url"];?>"><img src="<?=PATH_URL_ASSET.$parameters["AdBanners"][0]["image"];?>" alt="<?=$parameters["AdBanners"][0]["image"];?>"></a>
     </div>
     <div class="BannerLeft">
-        <a href="#"><img src="./Asset/Images/Banners/Banner1.jpg" alt="Banner1"></a>
+        <a href="<?=PATH_URL.$parameters["AdBanners"][1]["url"];?>"><img src="<?=PATH_URL_ASSET.$parameters["AdBanners"][1]["image"];?>" alt="<?=$parameters["AdBanners"][1]["image"];?>"></a>
     </div>
 </div>

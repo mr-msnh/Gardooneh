@@ -1,17 +1,17 @@
 <?php
 class Errors extends Controller
 {
-    private $controllerName = "Errors";
+    const CONTROLLER_NAME = "Errors";
 
     public function __construct()
     {
-        parent::requireControllerModel($this->controllerName);
-        $modelName = $this->controllerName."_Model";
+        parent::requireControllerModel(self::CONTROLLER_NAME);
+        $modelName = self::CONTROLLER_NAME."_Model";
         $this->model = new $modelName;
     }
     public function default($errorMessage)
     {
         
-        parent::requireControllerView($this->controllerName, $errorMessage);
+        parent::requireControllerView(self::CONTROLLER_NAME, $errorMessage);
     }
 }

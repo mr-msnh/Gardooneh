@@ -114,9 +114,19 @@ class Controller
     }
 
 
-    protected function requireControllerView($controllerName, $parameters)
+    protected function requireControllerView($controllerName, $parameters, $section = "index")
     {
-        require_once ("./application/view/".Functions::letterToLowerCase($controllerName)."/index.php");
+        $pathViewSection = "./application/view/".Functions::letterToLowerCase($controllerName)."/".$section.".php";
+        
+        if(file_exists($pathViewSection))
+        {
+            require_once ($pathViewSection);
+        }
+        else
+        {
+            $this->handelErrorController("404");
+        }
+
     }
 
     protected function requireControllerModel($controllerName)

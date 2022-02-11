@@ -12,6 +12,12 @@ class Model
         }
         catch(PDOException $error)
         {
+            $errorMessage = date("h:i:s  -  Y/m/d")."\n---------\n".$error."\n_______________________________\n\n";
+
+            $FileAppend = fopen("./logs/database_connection.txt", "a");
+            fwrite($FileAppend, $errorMessage);
+            fclose($FileAppend);
+
             echo "connection lost";
             exit();
         }

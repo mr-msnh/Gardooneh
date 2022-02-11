@@ -26,4 +26,31 @@ class Home_Model extends Model
         
         return $result;
     }
+
+    public function getOfferProducts()
+    {
+        $query = "SELECT `id`, `name`, `brand`, `price`, `price_off`, `percent_off`, `cover_image`, `star`, `active` FROM `tbl_products` WHERE `active` = 1 AND `percent_off` != 0 ORDER BY `id` DESC LIMIT 0,8";
+
+        $result = parent::queryExceute($query);
+
+        return $result;
+    }
+
+    public function getProducts()
+    {
+        $query = "SELECT `id`, `name`, `brand`, `price`, `percent_off`, `cover_image`, `star`, `active` FROM `tbl_products` WHERE `active` = 1 AND `percent_off` = 0 ORDER BY `id` DESC LIMIT 0,5";
+
+        $result = parent::queryExceute($query);
+
+        return $result;
+    }
+
+    public function getAdBanners()
+    {
+        $query = "SELECT * FROM `tbl_ad_banners` WHERE `active` = 1 ORDER BY `id` LIMIT 0,2";
+
+        $result = parent::queryExceute($query);
+
+        return $result;
+    }
 }
