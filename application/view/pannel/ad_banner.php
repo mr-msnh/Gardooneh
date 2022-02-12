@@ -1,1 +1,1 @@
-<div class="AdBanner"><img src="./Asset/Images/Banners/MiniBanner1.jpg" alt="MiniBanner"></div>
+<div class="AdBanner"><img src="<?=PATH_URL_ASSET;?>images/banners/mini_banner1.jpg" alt="MiniBanner"></div>

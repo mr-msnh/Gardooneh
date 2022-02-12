@@ -10,7 +10,7 @@
                 <p>مختصر تعریفی بر وقایع شخصی در دوران نوجوانی</p>
             </div>
             <nav>
-                <a href="Home" class="nav-item nav-item-acitve">خانه</a>
+                <a href="<?=PATH_URL;?>" class="nav-item nav-item-acitve">خانه</a>
                 <a href="#" class="nav-item">مطالب</a>
                 <a href="#" class="nav-item">درباره‌من</a>
             </nav>
@@ -22,7 +22,7 @@
         <main role="main">
             <article class="article-feature">
                 <h2 class="article-title">عنوان اصلی من</h2>
-                <img src="./Asset/Images/Weblog/image_1.jpg" alt="image_1" class="article-image">
+                <img src="<?=PATH_URL_ASSET;?>images/weblog/image_1.jpg" alt="image_1" class="article-image">
                 <p class="article-info">۲۵ فروردین سال ۱۴۰۰</p>
                 <p class="article-body">
                     متن ساختگی مورد نظر برای این صفحه از وبلاگ شخصی خود بدین سبب که هر وبسایت با موضوعاتی نظیر هنرمندی و هنرسرایی مردم برای ما یک مورد خیلی زیبا و جالبی خواهد بود.
@@ -46,7 +46,7 @@
                     <a href="#" class="article-read-more">مشاهده ادامه...</a>
                 </div>
                 <div class="article-recent-secondary">
-                    <img src="./Asset/Images/Weblog/image_2.jpg" alt="image_2" class="article-image">
+                    <img src="<?=PATH_URL_ASSET;?>images/weblog/image_2.jpg" alt="image_2" class="article-image">
                     <p class="article-info">۲۵ فروردین سال ۱۴۰۰</p>
                 </div>
             </article>
@@ -63,7 +63,7 @@
                     <a href="#" class="article-read-more">مشاهده ادامه...</a>
                 </div>
                 <div class="article-recent-secondary">
-                    <img src="./Asset/Images/Weblog/image_3.jpg" alt="image_2" class="article-image">
+                    <img src="<?=PATH_URL_ASSET;?>images/weblog/image_3.jpg" alt="image_2" class="article-image">
                     <p class="article-info">۲۵ فروردین سال ۱۴۰۰</p>
                 </div>
             </article>
@@ -71,22 +71,22 @@
         <aside class="sidebar">
             <div class="sidebar-widget">
                 <h2 class="widget-title">درباره من</h2>
-                <img src="./Asset/Images/Weblog/image_4.jpg" alt="image_4" class="widget-image">
+                <img src="<?=PATH_URL_ASSET;?>images/weblog/image_4.jpg" alt="image_4" class="widget-image">
                 <p class="widget-body">وبلاگی برای مرور خاطرات و دنیایی از دلنوشته‌های مورد انتظار برای عاشقان صنعت نویسندگی</p>
             </div>
             <div class="sidebar-widget">
                 <h2 class="widget-title">پست‌های اخیر</h2>
                 <div class="widget-recent-post">
                     <h3 class="widget-recent-post-title">پست شماره ۱</h3>
-                    <img src="./Asset/Images/Weblog/image_1.jpg" alt="image_1" class="widget-image">
+                    <img src="<?=PATH_URL_ASSET;?>images/weblog/image_1.jpg" alt="image_1" class="widget-image">
                 </div>
                 <div class="widget-recent-post">
                     <h3 class="widget-recent-post-title">پست شماره ۲</h3>
-                    <img src="./Asset/Images/Weblog/image_2.jpg" alt="image_2" class="widget-image">
+                    <img src="<?=PATH_URL_ASSET;?>images/weblog/image_2.jpg" alt="image_2" class="widget-image">
                 </div>
                 <div class="widget-recent-post">
                     <h3 class="widget-recent-post-title">پست شماره ۳</h3>
-                    <img src="./Asset/Images/Weblog/image_3.jpg" alt="image_3" class="widget-image">
+                    <img src="<?=PATH_URL_ASSET;?>images/weblog/image_3.jpg" alt="image_3" class="widget-image">
                 </div>
             </div>
         </aside>

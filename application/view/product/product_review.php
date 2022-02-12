@@ -2,7 +2,7 @@
     <p>نظر مشتریان <span>(۵ نظر)</span></p>
     <div class="Review-Section">
         <div class="Review-Item">
-            <div class="Review-Profile"><img src="./Asset/Images/Profiles/MainProfile.png" alt="Profile"></div>
+            <div class="Review-Profile"><img src="<?=PATH_URL_ASSET;?>images/profiles/main_profile.png" alt="Profile"></div>
             <div class="Review-Content">
                 <div class="Review-Info">
                     <div class="Name">بهاره جعفری</div>
@@ -22,7 +22,7 @@
             </div>
         </div>
         <div class="Review-Item">
-            <div class="Review-Profile"><img src="./Asset/Images/Profiles/MainProfile.png" alt="Profile"></div>
+            <div class="Review-Profile"><img src="<?=PATH_URL_ASSET;?>images/profiles/main_profile.png" alt="Profile"></div>
             <div class="Review-Content">
                 <div class="Review-Info">
                     <div class="Name">بهاره جعفری</div>
@@ -37,7 +37,7 @@
             </div>
         </div>
         <div class="Review-Item">
-            <div class="Review-Profile"><img src="./Asset/Images/Profiles/MainProfile.png" alt="Profile"></div>
+            <div class="Review-Profile"><img src="<?=PATH_URL_ASSET;?>images/profiles/main_profile.png" alt="Profile"></div>
             <div class="Review-Content">
                 <div class="Review-Info">
                     <div class="Name">بهاره جعفری</div>

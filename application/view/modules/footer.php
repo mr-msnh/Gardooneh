@@ -5,19 +5,19 @@
             <div class="MainFrame">
                 <div class="Trust">
                     <div class="TrustItems">
-                        <img src="./Asset/Icons/FooterIcons/Trust1.png" alt="Trust1">
+                        <img src="<?=PATH_URL_ASSET;?>icons/footer/trust1.png" alt="Trust1">
                         <p>پرداخت امن از درگاه بانکی</p>
                     </div>
                     <div class="TrustItems">
-                        <img src="./Asset/Icons/FooterIcons/Trust2.png" alt="Trust2">
+                        <img src="<?=PATH_URL_ASSET;?>icons/footer/trust2.png" alt="Trust2">
                         <p>۷ روز ضمانت برگشت پول</p>
                     </div>
                     <div class="TrustItems">
-                        <img src="./Asset/Icons/FooterIcons/Trust3.png" alt="Trust3">
+                        <img src="<?=PATH_URL_ASSET;?>icons/footer/trust3.png" alt="Trust3">
                         <p>ارتباط مستقیم با فروشنده</p>
                     </div>
                     <div class="TrustItems">
-                        <img src="./Asset/Icons/FooterIcons/Trust4.png" alt="Trust4">
+                        <img src="<?=PATH_URL_ASSET;?>icons/footer/trust4.png" alt="Trust4">
                         <p>پشتیبانی آنلاین و تلفنی</p>
                     </div>
                 </div>
@@ -38,9 +38,9 @@
                             <li><a href="#">قوانین و شرایط استفاده</a></li>
                             <li></li>
                             <li class="SocialNetwork">
-                                <a href="#"><img src="./Asset/Icons/FooterIcons/SocialNetwork1.png" alt="SocialNetwork1"></a>
-                                <a href="#"><img src="./Asset/Icons/FooterIcons/SocialNetwork2.png" alt="SocialNetwork2"></a>
-                                <a href="#"><img src="./Asset/Icons/FooterIcons/SocialNetwork3.png" alt="SocialNetwork3"></a>
+                                <a href="#"><img src="<?=PATH_URL_ASSET;?>icons/footer/social_network1.png" alt="SocialNetwork1"></a>
+                                <a href="#"><img src="<?=PATH_URL_ASSET;?>icons/footer/social_network2.png" alt="SocialNetwork2"></a>
+                                <a href="#"><img src="<?=PATH_URL_ASSET;?>icons/footer/social_network3.png" alt="SocialNetwork3"></a>
                             </li>
                         </ul>
                     </div>
@@ -73,10 +73,10 @@
                         <input type="button" name="btnSubscription" value="عضویت">
                     </div>
                     <div class="License">
-                        <a href="#"><img src="./Asset/Icons/FooterIcons/License1.png" alt="License1.png"></a>
-                        <a href="#"><img src="./Asset/Icons/FooterIcons/License2.png" alt="License2.png"></a>
-                        <a href="#"><img src="./Asset/Icons/FooterIcons/License3.png" alt="License3.png"></a>
-                        <a href="#"><img src="./Asset/Icons/FooterIcons/License4.png" alt="License4.png"></a>
+                        <a href="#"><img src="<?=PATH_URL_ASSET;?>icons/footer/license1.png" alt="License1.png"></a>
+                        <a href="#"><img src="<?=PATH_URL_ASSET;?>icons/footer/license2.png" alt="License2.png"></a>
+                        <a href="#"><img src="<?=PATH_URL_ASSET;?>icons/footer/license3.png" alt="License3.png"></a>
+                        <a href="#"><img src="<?=PATH_URL_ASSET;?>icons/footer/license4.png" alt="License4.png"></a>
                     </div>
                 </div>
             </div>

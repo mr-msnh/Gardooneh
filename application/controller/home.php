@@ -12,19 +12,27 @@ class Home extends Controller
     }
     public function default()
     {
-        $mainSlider     =   ($this->model)->getMainSlider();
-        $rollbarTools   =   ($this->model)->getRollbarTools();
-        $offerProducts  =   ($this->model)->getOfferProducts();
-        $products       =   ($this->model)->getProducts();
-        $adBanners      =   ($this->model)->getAdBanners();
+        $websiteConfig      =   ($this->model)->getWebsiteConfig();
+        $pageConfig         =   ($this->model)->getPageConfig();
+        $mainSlider         =   ($this->model)->getMainSlider();
+        $rollbarTools       =   ($this->model)->getRollbarTools();
+        $offerProducts      =   ($this->model)->getOfferProducts();
+        $newestProducts     =   ($this->model)->getNewestProducts();
+        $mostViewdProducts  =   ($this->model)->getMostViewdProducts();
+        $mostSalesProducts  =   ($this->model)->getMostSalesProducts();
+        $adBanners          =   ($this->model)->getAdBanners();
 
         $defaultData = 
         [
-            "MainSlider"    =>  $mainSlider,
-            "RollbarTools"  =>  $rollbarTools,
-            "OfferProducts" =>  $offerProducts,
-            "Products"      =>  $products,
-            "AdBanners"     =>  $adBanners
+            "WebsiteConfig"     =>  $websiteConfig,
+            "PageConfig"        =>  $pageConfig,
+            "MainSlider"        =>  $mainSlider,
+            "RollbarTools"      =>  $rollbarTools,
+            "OfferProducts"     =>  $offerProducts,
+            "NewestProducts"    =>  $newestProducts,
+            "MostViewdProducts" =>  $mostViewdProducts,
+            "MostSalesProducts" =>  $mostSalesProducts,
+            "AdBanners"         =>  $adBanners
         ];
         
         parent::requireControllerView(self::CONTROLLER_NAME, $defaultData);
@@ -33,6 +41,6 @@ class Home extends Controller
     public function test()
     {
         echo "<p>"."method test is working"."</P>";
-        echo date("Y/m/d  -  h:i:s");
+        // echo date("Y/m/d  -  h:i:s");
     }
 }

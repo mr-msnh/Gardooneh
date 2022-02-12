@@ -1,6 +1,6 @@
 <div class="Vendor-Info">
     <div class="Vendor-Profile">
-        <div class="Profile-Image"><img src="./Asset/Images/Profiles/MainProfile.png" alt="Profile"></div>
+        <div class="Profile-Image"><img src="<?=PATH_URL_ASSET;?>images/profiles/main_profile.png" alt="Profile"></div>
         <div class="Profile-Text">
             <h6>فروشگاه عطار</h6>
             <p>۲ سال در گردونه | ۳۱ محصول</p>

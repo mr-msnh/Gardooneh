@@ -1,7 +1,7 @@
 <div class="LoginFrame">
     <div class="Login">
         <h2>ورود بـه گـردونـه</h2>
-        <form class="SigninBox" action="Pannel" method="POST">
+        <form class="SigninBox" action="pannel" method="POST">
             <input type="text" placeholder="ایمیل" name="txtEmail" id="txtEmail">
             <input type="password" placeholder="رمزعبور" name="txtPassword" id="txtPassword">
             <span class="EyePass"></span>

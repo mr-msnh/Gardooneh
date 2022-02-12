@@ -1,19 +1,20 @@
 $(document).ready(function()
 {
     //Product Card
-    $(".SOIProductContent > .AddCart > img").hover(function()
+    $(".SOIProductContent > .Review > .Star > i").hover(function()
     {
-        $(this).attr("src","./Asset/Icons/ProductIcons/AddIconLight.png");
+        $(this).attr("class","far fa-star");
     }, function()
     {
-        $(this).attr("src","./Asset/Icons/ProductIcons/AddIcon.png");
+        $(this).attr("class","fas fa-star");
     });
-    $(".SOIProductContent > .Review > .Star > img").hover(function()
+
+    $(".SOIProductContent > .AddCart > i").hover(function()
     {
-        $(this).attr("src","./Asset/Icons/ProductIcons/StarIconLight.png");
+        $(this).attr("class","far fa-plus-circle fa-lg");
     }, function()
     {
-        $(this).attr("src","./Asset/Icons/ProductIcons/StarIcon.png");
+        $(this).attr("class","fas fa-plus-circle fa-lg");
     });
     //Gallery Slider Mechanism
     let mainGalleryImage = $(".Product-Gallery > .Main-Image > img");

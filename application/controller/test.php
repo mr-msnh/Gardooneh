@@ -13,8 +13,16 @@ class Test extends Controller
     }
     public function default()
     {
-        parent::requireControllerView(self::CONTROLLER_NAME,[]);
+        $websiteConfig      =   ($this->model)->getWebsiteConfig();
+        $pageConfig         =   ($this->model)->getPageConfig();
 
+        $defaultData = 
+        [
+            "WebsiteConfig"     =>  $websiteConfig,
+            "PageConfig"        =>  $pageConfig
+        ];
+
+        parent::requireControllerView(self::CONTROLLER_NAME, $defaultData);
     }
 
     public function func()

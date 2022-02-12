@@ -1,11 +1,11 @@
 <div class="Main-Product">
     <div class="Product-Gallery">
-        <div class="Main-Image"><img src="./Asset/Images/Products/Product1.jpeg" alt="Slide1" /></div>
+        <div class="Main-Image"><img src="<?=PATH_URL_ASSET;?>images/products/product1.jpeg" alt="Slide1" /></div>
         <div class="Other-Image">
             <ul>
-                <li><img src="./Asset/Images/Products/Product2.jpeg" alt="Slide1"></li>
-                <li><img src="./Asset/Images/Products/Product3.jpeg" alt="Slide2"></li>
-                <li><img src="./Asset/Images/Products/Product4.jpeg" alt="Slide3"></li>
+                <li><img src="<?=PATH_URL_ASSET;?>images/products/product2.jpeg" alt="Slide1"></li>
+                <li><img src="<?=PATH_URL_ASSET;?>images/products/product3.jpeg" alt="Slide2"></li>
+                <li><img src="<?=PATH_URL_ASSET;?>images/products/product4.jpeg" alt="Slide3"></li>
                 <li><i class="far fa-ellipsis-h"></i></li>
             </ul>
         </div>

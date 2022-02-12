@@ -6,9 +6,28 @@ class Home_Model extends Model
         parent::__construct();
     }
 
+    public function getWebsiteConfig()
+    {
+        $query = "SELECT * FROM `tbl_website_config` LIMIT 0,1";
+
+        $result = parent::queryExceute($query);
+
+        return $result;
+    }
+
+    public function getPageConfig()
+    {
+        $query = "SELECT * FROM `tbl_page_config` WHERE `name` = ? LIMIT 0,1";
+
+        $result = parent::queryExceute($query, ["home"]);
+
+        return $result;
+    }
+
     public function getMainSlider()
     {
         $query = "SELECT * FROM `tbl_main_slider` WHERE `active` = 1 ORDER BY `id` DESC LIMIT 0,4";
+
         $result = parent::queryExceute($query);
 
         return $result;
@@ -36,9 +55,27 @@ class Home_Model extends Model
         return $result;
     }
 
-    public function getProducts()
+    public function getNewestProducts()
     {
         $query = "SELECT `id`, `name`, `brand`, `price`, `percent_off`, `cover_image`, `star`, `active` FROM `tbl_products` WHERE `active` = 1 AND `percent_off` = 0 ORDER BY `id` DESC LIMIT 0,5";
+
+        $result = parent::queryExceute($query);
+
+        return $result;
+    }
+
+    public function getMostViewdProducts()
+    {
+        $query = "SELECT `id`, `name`, `brand`, `price`, `percent_off`, `cover_image`, `star`, `active` FROM `tbl_products` WHERE `active` = 1 AND `percent_off` = 0 ORDER BY `total_view` DESC LIMIT 0,5";
+
+        $result = parent::queryExceute($query);
+
+        return $result;
+    }
+
+    public function getMostSalesProducts()
+    {
+        $query = "SELECT `id`, `name`, `brand`, `price`, `percent_off`, `cover_image`, `star`, `active` FROM `tbl_products` WHERE `active` = 1 AND `percent_off` = 0 ORDER BY `total_sale` DESC LIMIT 0,5";
 
         $result = parent::queryExceute($query);
 

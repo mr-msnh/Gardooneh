@@ -15,7 +15,7 @@
             </div>
             <div class="SOTButtom">
                 <input type="button" value="مشاهده همه">
-                <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                <i class="fas fa-angle-left fa-lg"></i>
             </div>
         </div>
         <div class="SpecialOfferContainer">
@@ -31,13 +31,13 @@
                                 <p><?=$parameters["OfferProducts"][$counter]["brand"];?></p>
                                 <div class="Review">
                                     <span class="Star">
-                                        <img src="./Asset/Icons/ProductIcons/StarIcon.png" alt="StarIcon">
+                                        <i class="fas fa-star"></i>
                                         <span><?=Functions::convertEngToFaNumber($parameters["OfferProducts"][$counter]["star"]);?></span>
                                     </span>
                                     <span class="OffPercent"><?=Functions::seperateDigitsBySpatialValue($parameters["OfferProducts"][$counter]["percent_off"])."٪";?></span>
                                 </div>
                                 <div class="AddCart">
-                                    <img src="./Asset/Icons/ProductIcons/AddIcon.png" alt="AddIcon">
+                                    <i class="fas fa-plus-circle fa-lg"></i>
                                     <span class="PriceType">تومان</span>
                                     <span class="OffPrice"><?=Functions::seperateDigitsBySpatialValue($parameters["OfferProducts"][$counter]["price_off"]);?></span>
                                     <span class="Price"><?=Functions::seperateDigitsBySpatialValue($parameters["OfferProducts"][$counter]["price"]);?></span>
@@ -49,8 +49,8 @@
 
                 <?php endforeach; ?>
             </div>
-            <span class="SpecialOfferItemsNext"></span>
-            <span class="SpecialOfferItemsPrevious"></span>
+            <i class="fas fa-caret-left fa-3x SpecialOfferItemsNext"></i>
+            <i class="fas fa-caret-left fa-3x SpecialOfferItemsPrevious"></i>
         </div>
     </div>
 </div>

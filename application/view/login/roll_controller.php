@@ -1,6 +1,6 @@
 <div class="RollController">
     <div class="Logo">
-        <a href="Home"><img src="./Asset/Images/Logo/favicon.png" alt="Logo"></a>
+        <a href="<?=PATH_URL?>"><img src="<?=PATH_URL_ASSET.$parameters["WebsiteConfig"][0]["website_favicon"];?>" alt="Logo"></a>
     </div>
     <div class="Title">
         <h2 class="TitleSignUp">سلام دوست عزیز!</h2>

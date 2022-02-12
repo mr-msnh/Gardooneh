@@ -23,9 +23,19 @@ class Model
         }
     }
 
-    public function queryExceute($query)
+    public function queryExceute($query, $params = null)
     {
         $statement = ($this->connection)->prepare($query);
+        if(isset($params))
+        {
+            if(is_array($params))
+            {
+                foreach($params as $counter=>$value)
+                {
+                    $statement->bindValue($counter+1,$value);
+                }
+            }
+        }
         $resultQuery = $statement->execute();
 
         if($resultQuery)

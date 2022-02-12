@@ -424,8 +424,10 @@
     float: right;
     margin-right: -4px;
 }
-.SOIProductContent > .Review > .Star > img {
+.SOIProductContent > .Review > .Star > i {
     float: right;
+    color: #f11840;
+    margin-top: 8px;
 }
 .SOIProductContent > .Review > .Star > Span {
     float: right;
@@ -447,10 +449,14 @@
 .SOIProductContent > .AddCart {
     margin-top:50px;
 }
-.SOIProductContent > .AddCart > img {
-    width: 32px;
-    float: right;
-    margin-right: -6px;
+.SOIProductContent > .AddCart > i {
+    font-size: 29px;
+    margin-top: 6px;
+    margin-right: 1px;
+    color: #dc3755;
+    border-radius: 50px;
+    width: 28px;
+    height: 23px;
 }
 .SOIProductContent > .AddCart > span {
     float: left;

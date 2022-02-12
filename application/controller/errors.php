@@ -11,7 +11,16 @@ class Errors extends Controller
     }
     public function default($errorMessage)
     {
-        
-        parent::requireControllerView(self::CONTROLLER_NAME, $errorMessage);
+        $websiteConfig      =   ($this->model)->getWebsiteConfig();
+        $pageConfig         =   ($this->model)->getPageConfig();
+
+        $defaultData = 
+        [
+            "WebsiteConfig"     =>  $websiteConfig,
+            "PageConfig"        =>  $pageConfig,
+            "ErrorMessage"      => $errorMessage
+        ];
+
+        parent::requireControllerView(self::CONTROLLER_NAME, $defaultData);
     }
 }

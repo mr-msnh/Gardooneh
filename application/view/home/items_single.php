@@ -4,25 +4,25 @@
         <a href="<?=PATH_URL."search/";?>">مشاهده بیشتر
         </a>
         <div class="SpecialOfferItemsListNormalList">
-            <?php foreach ($parameters["Products"] as $counter=>$product) : ?>
+            <?php foreach ($parameters["MostViewdProducts"] as $counter=>$product) : ?>
 
             <div class="SpecailaOfferItems">
-                <a href="<?=PATH_URL."product/".$parameters["Products"][$counter]["id"];?>">
+                <a href="<?=PATH_URL."product/".$parameters["MostViewdProducts"][$counter]["id"];?>">
                     <div class="SOIProduct">
-                        <img src="<?=PATH_URL_ASSET.$parameters["Products"][$counter]["cover_image"];?>" alt="<?=$parameters["Products"][$counter]["name"];?>">
+                        <img src="<?=PATH_URL_ASSET.$parameters["MostViewdProducts"][$counter]["cover_image"];?>" alt="<?=$parameters["MostViewdProducts"][$counter]["name"];?>">
                         <div class="SOIProductContent">
-                            <h5><?=$parameters["Products"][$counter]["name"];?></h5>
-                            <p><?=$parameters["Products"][$counter]["brand"];?></p>
+                            <h5><?=$parameters["MostViewdProducts"][$counter]["name"];?></h5>
+                            <p><?=$parameters["MostViewdProducts"][$counter]["brand"];?></p>
                             <div class="Review">
                                 <span class="Star">
-                                    <img src="./Asset/Icons/ProductIcons/StarIcon.png" alt="StarIcon">
-                                    <span><?=Functions::convertEngToFaNumber($parameters["Products"][$counter]["star"]);?></span>
+                                    <i class="fas fa-star"></i>
+                                    <span><?=Functions::convertEngToFaNumber($parameters["MostViewdProducts"][$counter]["star"]);?></span>
                                 </span>
                             </div>
                             <div class="AddCart">
-                                <img src="./Asset/Icons/ProductIcons/AddIcon.png" alt="AddIcon">
+                                <i class="fas fa-plus-circle fa-lg"></i>
                                 <span class="PriceType">تومان</span>
-                                <span class="OffPrice"><?=Functions::seperateDigitsBySpatialValue($parameters["Products"][$counter]["price"]);?></span>
+                                <span class="OffPrice"><?=Functions::seperateDigitsBySpatialValue($parameters["MostViewdProducts"][$counter]["price"]);?></span>
                             </div>
                         </div>
                     </div>

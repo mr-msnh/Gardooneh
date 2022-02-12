@@ -36,6 +36,7 @@
     float: right;
     margin-right: 10px;
     cursor: pointer;
+    z-index: 200;
 }
 .MainSlide > .SliderController > span:hover {
     background-color: #dad7d7;
@@ -188,11 +189,17 @@
     transition: all .2s;
     box-shadow: 0px 0px 4px #dfdfdf;
 }
-.SOTButtom > img {
+.SOTButtom > i {
     top: 16px;
     right: 134px;
     position: absolute;
-    width: 15px;
+    color: #000;
+    transition: all .3s;
+}
+.SOTButtom:hover > i {
+    right: 140px;
+    transition: all .2s;
+
 }
 .SOIProduct > img {
     width: 215px;
@@ -220,9 +227,12 @@
     float: right;
     margin-right: -4px;
 }
-.SOIProductContent > .Review > .Star > img {
+.SOIProductContent > .Review > .Star > i {
     float: right;
+    color: #f11840;
+    margin-top: 8px;
 }
+
 .SOIProductContent > .Review > .Star > Span {
     float: right;
     line-height: 35px;
@@ -243,11 +253,16 @@
 .SOIProductContent > .AddCart {
     margin-top:50px;
 }
-.SOIProductContent > .AddCart > img {
-    width: 32px;
-    float: right;
-    margin-right: -6px;
+.SOIProductContent > .AddCart > i {
+    font-size: 29px;
+    margin-top: 6px;
+    margin-right: 1px;
+    color: #dc3755;
+    border-radius: 50px;
+    width: 28px;
+    height: 23px;
 }
+
 .SOIProductContent > .AddCart > span {
     float: left;
     line-height: 36px;
@@ -270,11 +285,15 @@
     top: 165px;
     left: 24px;
     cursor: pointer;
-    background-image: url("../../Asset/Icons/MenuItemsIcons/LeftArrow.png");
+    /* background-image : inline */
     background-repeat: no-repeat;
     background-size: 22px;
     background-position-x: 20px;
     background-position-y: 21px;
+    text-align: center;
+    color: #6c6c6c;
+    line-height: 64px;
+    padding-right: 6px;
 }
 .SpecialOfferItemsNext:hover {
     background-color: #fff1f1d9;
@@ -288,12 +307,16 @@
     top: 165px;
     right: 10px;
     cursor: pointer;
-    background-image: url("../../Asset/Icons/MenuItemsIcons/LeftArrow.png");
+    /* background-image : inline */
     background-repeat: no-repeat;
     background-size: 22px;
     background-position-x: 18px;
     background-position-y: 20px;
     transform: rotate(180deg);
+    text-align: center;
+    color: #6c6c6c;
+    line-height: 64px;
+    padding-right: 6px;
 }
 .SpecialOfferItemsPrevious:hover {
     background-color: #fff1f1d9;

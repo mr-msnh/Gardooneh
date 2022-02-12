@@ -78,11 +78,11 @@ span {
 .HTRSearch > input::placeholder {
     padding-right: 10px;
 }
-.HTRSearch > img {
+.HTRSearch > i {
     position: absolute;
     opacity: 0.7;
-    left: 11px;
-    top: 9px;
+    left: 13px;
+    top: 13px;
 }
 .HTRSearch > img:hover {
     cursor: pointer;
@@ -201,9 +201,12 @@ span {
     color: #ff0000;
     opacity: 1;
 } */
-.HBRSubmenu > div > .HBRSubmenuTitle > a > img {
+.HBRSubmenu > div > .HBRSubmenuTitle > a > i {
     width: 10px;
     margin-right: 3px;
+}
+.HBRSubmenu > div > .HBRSubmenuTitle > a:hover > i {
+    color: #ff0000;
 }
 .HBRSubmenu > div > .HBRSubmenuList > ul {
     list-style-type: none;

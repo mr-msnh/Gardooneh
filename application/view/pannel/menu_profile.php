@@ -1,6 +1,6 @@
 <div class="Menu-Profile">
     <div class="Profile-Image">
-        <img src="./Asset/Images/Profiles/MainProfile.png" alt="Profile">
+        <img src="<?=PATH_URL_ASSET;?>images/profiles/main_profile.png" alt="Profile">
     </div>
     <div class="Profile-Name">
         <span class="Name">محمد صادق نیلچی حصاری</span>

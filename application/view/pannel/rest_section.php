@@ -17,7 +17,7 @@
             <td>۲,۱۳۴,۰۰۰ تومان</td>
             <td>پرداخت موفق</td>
             <td>تکمیل شده</td>
-            <td><a href="Orders"><i class="far fa-chevron-left fa-lg"></i></a></td>
+            <td><a href="orders"><i class="far fa-chevron-left fa-lg"></i></a></td>
         </tr>
         <tr>
             <td>۲</td>
@@ -26,7 +26,7 @@
             <td>۳۱۳,۰۰۰ تومان</td>
             <td>پرداخت موفق</td>
             <td>تکمیل شده</td>
-            <td><a href="Orders"><i class="far fa-chevron-left fa-lg"></i></a></td>
+            <td><a href="orders"><i class="far fa-chevron-left fa-lg"></i></a></td>
         </tr>
         <tr>
             <td>۳</td>
@@ -35,7 +35,7 @@
             <td>۳۲,۴۲۱,۰۰۰ تومان</td>
             <td>پرداخت موفق</td>
             <td>تکمیل شده</td>
-            <td><a href="Orders"><i class="far fa-chevron-left fa-lg"></i></a></td>
+            <td><a href="orders"><i class="far fa-chevron-left fa-lg"></i></a></td>
         </tr>
         <tr>
             <td>۴</td>
@@ -44,7 +44,7 @@
             <td>۲,۱۳۴,۰۰۰ تومان</td>
             <td>پرداخت موفق</td>
             <td>تکمیل شده</td>
-            <td><a href="Orders"><i class="far fa-chevron-left fa-lg"></i></a></td>
+            <td><a href="orders"><i class="far fa-chevron-left fa-lg"></i></a></td>
         </tr>
         <tr>
             <td>۵</td>
@@ -53,7 +53,7 @@
             <td>۳۱۳,۰۰۰ تومان</td>
             <td>پرداخت موفق</td>
             <td>تکمیل شده</td>
-            <td><a href="Orders"><i class="far fa-chevron-left fa-lg"></i></a></td>
+            <td><a href="orders"><i class="far fa-chevron-left fa-lg"></i></a></td>
         </tr>
         <tr>
             <td>۶</td>
@@ -62,7 +62,7 @@
             <td>۳۲,۴۲۱,۰۰۰ تومان</td>
             <td>پرداخت موفق</td>
             <td>تکمیل شده</td>
-            <td><a href="Orders"><i class="far fa-chevron-left fa-lg"></i></a></td>
+            <td><a href="orders"><i class="far fa-chevron-left fa-lg"></i></a></td>
         </tr>
     </table>
 </div>

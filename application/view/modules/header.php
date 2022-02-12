@@ -6,37 +6,37 @@
                 <!-- Start of HeaderTop Right -->
                 <div class="HeaderTopRight">
                     <div class="HTRLogo">
-                        <a href="Home"><img src="<?=PATH_URL_ASSET;?>images/logo/main_logo.png" alt="MainLogo"></a>
+                        <a href="<?=PATH_URL?>"><img src="<?=PATH_URL_ASSET.$parameters["WebsiteConfig"][0]["website_logo"];?>" alt="<?=$parameters["WebsiteConfig"][0]["website_name"];?>"></a>
                     </div>
                     <div class="HTRSearch">
-                        <input type="text" placeholder="جستجو در میان صدها هزار محصول خانگی و محلی..." name="txtMainSearch">
-                        <img src="./Asset/Icons/HeaderItemsIcons/Search.png" alt="Search">
+                        <input type="text" placeholder="جستجو در میان صدها هزار محصول خانگی و محلی..." name="txtMain<?=PATH_URL;?>search">
+                        <i class="fas fa-search fa-lg"></i>
                     </div>
                 </div>
                 <!-- End of HeaderTop Right -->
                 <!-- Start of HeaderTop Left -->
                 <div class="HeaderTopLeft">
                     <div class="HTLBox">
-                        <a href="Weblog">
-                            <img src="./Asset/Icons/HeaderItemsIcons/Post.png" alt="Post">
+                        <a href="<?=PATH_URL;?>weblog">
+                            <img src="<?=PATH_URL_ASSET;?>icons/header_items/post.png" alt="Post">
                             <p>پست‌ها</p>
                         </a>
                     </div>
                     <div class="HTLBox">
-                        <a href="#">
-                            <img src="./Asset/Icons/HeaderItemsIcons/Message.png" alt="Post">
+                        <a href="<?=PATH_URL;?>chat">
+                            <img src="<?=PATH_URL_ASSET;?>icons/header_items/message.png" alt="Chat">
                             <p>پیام‌ها</p>
                         </a>
                     </div>
                     <div class="HTLBox">
-                        <a href="Login">
-                            <img src="./Asset/Icons/HeaderItemsIcons/Signin.png" alt="Post">
+                        <a href="<?=PATH_URL;?>login">
+                            <img src="<?=PATH_URL_ASSET;?>icons/header_items/signin.png" alt="Login">
                             <p>ورود / ثبت‌نام</p>
                         </a>
                     </div>
                     <div class="HTLBox NoBoarder">
-                        <a href="Card">
-                            <img src="./Asset/Icons/HeaderItemsIcons/Basket.png" alt="Post">
+                        <a href="<?=PATH_URL;?>card">
+                            <img src="<?=PATH_URL_ASSET;?>icons/header_items/basket.png" alt="Card">
                             <p>سبد خرید</p>
                         </a>
                     </div>
@@ -53,474 +53,474 @@
                     <span><i class="far fa-bars fa-2x"></i></span>
                     <ul>
                         <li>
-                            <a href="Search">مواد غذایی</a>
+                            <a href="<?=PATH_URL;?>search">مواد غذایی</a>
                             <div class="HBRSubmenu">
                                 <div>
                                     <div class="HBRSubmenuTitle">
-                                        <a href="Search">
+                                        <a href="<?=PATH_URL;?><?=PATH_URL;?>search">
                                             نوشیدنی‌ها
-                                            <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                                            <i class="fal fa-angle-left"></i>
                                         </a>
                                     </div>
                                     <div class="HBRSubmenuList">
                                         <ul>
-                                            <li><a href="Search">چای و دمنوش</a></li>
-                                            <li><a href="Search">قهوه و محصولات کافئینی</a></li>
-                                            <li><a href="Search">قهوه و محصولات کافئینی</a></li>
-                                            <li><a href="Search">نوشیدنی گازدار</a></li>
-                                            <li><a href="Search">آبمیوه و شربت</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">چای و دمنوش</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">قهوه و محصولات کافئینی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">قهوه و محصولات کافئینی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">نوشیدنی گازدار</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">آبمیوه و شربت</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="HBRSubmenuTitle">
-                                        <a href="Search">
+                                        <a href="<?=PATH_URL;?>search">
                                             عسل و و ارده‌جات
-                                            <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                                            <i class="fal fa-angle-left"></i>
                                         </a>
                                     </div>
                                     <div class="HBRSubmenuList">
                                         <ul>
-                                            <li><a href="Search">عسل</a></li>
-                                            <li><a href="Search">ژل رویال</a></li>
-                                            <li><a href="Search">حلوار ارده</a></li>
-                                            <li><a href="Search">کنجد عسلی</a></li>
-                                            <li><a href="Search">گرده گل</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">عسل</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">ژل رویال</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">حلوار ارده</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">کنجد عسلی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">گرده گل</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="HBRSubmenuTitle">
-                                        <a href="Search">
+                                        <a href="<?=PATH_URL;?>search">
                                             میوه و سبزیجات
-                                            <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                                            <i class="fal fa-angle-left"></i>
                                         </a>
                                     </div>
                                     <div class="HBRSubmenuList">
                                         <ul>
-                                            <li><a href="Search">میوه</a></li>
-                                            <li><a href="Search">سبزی و صیفیجات</a></li>
-                                            <li><a href="Search">قارچ خوراکی</a></li>
-                                            <li><a href="Search">سبزی خشک</a></li>
-                                            <li><a href="Search">ترشی و خیارشور</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">میوه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">سبزی و صیفیجات</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">قارچ خوراکی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">سبزی خشک</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">ترشی و خیارشور</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
-                                    <img src="./Asset/Images/MenuItemsImages/BasketVegetables.png" alt="Vegetables">
+                                    <img src="<?=PATH_URL_ASSET;?>images/menu_items/basket_vegetables.png" alt="Vegetables">
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <a href="Search">مد و پوشاک</a>
+                            <a href="<?=PATH_URL;?>search">مد و پوشاک</a>
                             <div class="HBRSubmenu">
                                 <div>
                                     <div class="HBRSubmenuTitle">
-                                        <a href="Search">
+                                        <a href="<?=PATH_URL;?>search">
                                             زنانه
-                                            <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                                            <i class="fal fa-angle-left"></i>
                                         </a>
                                     </div>
                                     <div class="HBRSubmenuList">
                                         <ul>
-                                            <li><a href="Search">لباس زنانه</a></li>
-                                            <li><a href="Search">لباس زیر زنانه</a></li>
-                                            <li><a href="Search">لباس ورزشی زنانه</a></li>
-                                            <li><a href="Search">کیف و کفش زنانه</a></li>
-                                            <li><a href="Search">اکسسوری زنانه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">لباس زنانه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">لباس زیر زنانه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">لباس ورزشی زنانه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">کیف و کفش زنانه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">اکسسوری زنانه</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="HBRSubmenuTitle">
-                                        <a href="Search">
+                                        <a href="<?=PATH_URL;?>search">
                                             مردانه
-                                            <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                                            <i class="fal fa-angle-left"></i>
                                         </a>
                                     </div>
                                     <div class="HBRSubmenuList">
                                         <ul>
-                                            <li><a href="Search">لباس مردانه</a></li>
-                                            <li><a href="Search">لباس ورزشی مردانه</a></li>
-                                            <li><a href="Search">لباس زیر مردانه</a></li>
-                                            <li><a href="Search">کیف و کفش مردانه</a></li>
-                                            <li><a href="Search">اکسسوری مردانه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">لباس مردانه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">لباس ورزشی مردانه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">لباس زیر مردانه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">کیف و کفش مردانه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">اکسسوری مردانه</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="HBRSubmenuTitle">
-                                        <a href="Search">
+                                        <a href="<?=PATH_URL;?>search">
                                             بچه‌گانه
-                                            <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                                            <i class="fal fa-angle-left"></i>
                                         </a>
                                     </div>
                                     <div class="HBRSubmenuList">
                                         <ul>
-                                            <li><a href="Search">لباس دخترانه</a></li>
-                                            <li><a href="Search">لباس پسرانه</a></li>
-                                            <li><a href="Search">کیف و کفش</a></li>
-                                            <li><a href="Search">لباس نوزاد</a></li>
-                                            <li><a href="Search">ملزومات جانبی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">لباس دخترانه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">لباس پسرانه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">کیف و کفش</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">لباس نوزاد</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">ملزومات جانبی</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
-                                    <img src="./Asset/Images/MenuItemsImages/Clothes.png" alt="Vegetables" style="top: -28px;">
+                                    <img src="<?=PATH_URL_ASSET;?>images/menu_items/clothes.png" alt="clothes" style="top: -28px;">
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <a href="Search">خانه و آشپزخانه</a>
+                            <a href="<?=PATH_URL;?>search">خانه و آشپزخانه</a>
                             <div class="HBRSubmenu">
                                 <div>
                                     <div class="HBRSubmenuTitle">
-                                        <a href="Search">
+                                        <a href="<?=PATH_URL;?>search">
                                             فرش و تابلو
-                                            <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                                            <i class="fal fa-angle-left"></i>
                                         </a>
                                     </div>
                                     <div class="HBRSubmenuList">
                                         <ul>
-                                            <li><a href="Search">فرش، قالیچه</a></li>
-                                            <li><a href="Search">گلیم، جاجیم</a></li>
-                                            <li><a href="Search">پادری و روفرشی</a></li>
-                                            <li><a href="Search">فرش کودک</a></li>
-                                            <li><a href="Search">تابلوفرش</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">فرش، قالیچه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">گلیم، جاجیم</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">پادری و روفرشی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">فرش کودک</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">تابلوفرش</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="HBRSubmenuTitle">
-                                        <a href="Search">
+                                        <a href="<?=PATH_URL;?>search">
                                             کالای خواب
-                                            <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                                            <i class="fal fa-angle-left"></i>
                                         </a>
                                     </div>
                                     <div class="HBRSubmenuList">
                                         <ul>
-                                            <li><a href="Search">تشک و پتو</a></li>
-                                            <li><a href="Search">روتختی و ملحفه</a></li>
-                                            <li><a href="Search">بالش و کوسن</a></li>
-                                            <li><a href="Search">سرویس خواب</a></li>
-                                            <li><a href="Search">سایر کالای خواب</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">تشک و پتو</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">روتختی و ملحفه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">بالش و کوسن</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">سرویس خواب</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">سایر کالای خواب</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="HBRSubmenuTitle">
-                                        <a href="Search">
+                                        <a href="<?=PATH_URL;?>search">
                                             پرده و مبلمان
-                                            <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                                            <i class="fal fa-angle-left"></i>
                                         </a>
                                     </div>
                                     <div class="HBRSubmenuList">
                                         <ul>
-                                            <li><a href="Search">مبل و میز</a></li>
-                                            <li><a href="Search">تخت خواب</a></li>
-                                            <li><a href="Search">صندلی</a></li>
-                                            <li><a href="Search">پرده و ملزومات</a></li>
-                                            <li><a href="Search">کمد و نظم‌دهنده</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">مبل و میز</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">تخت خواب</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">صندلی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">پرده و ملزومات</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">کمد و نظم‌دهنده</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
-                                    <img src="./Asset/Images/MenuItemsImages/Kitchen.png" alt="Vegetables" style="top: -28px;">
+                                    <img src="<?=PATH_URL_ASSET;?>images/menu_items/kitchen.png" alt="Kitchen" style="top: -28px;">
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <a href="Search">صنایع دستی</a>
+                            <a href="<?=PATH_URL;?>search">صنایع دستی</a>
                             <div class="HBRSubmenu">
                                 <div>
                                     <div class="HBRSubmenuTitle">
-                                        <a href="Search">
+                                        <a href="<?=PATH_URL;?>search">
                                             بافتنی و رودوزی
-                                            <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                                            <i class="fal fa-angle-left"></i>
                                         </a>
                                     </div>
                                     <div class="HBRSubmenuList">
                                         <ul>
-                                            <li><a href="Search">قلاب‌بافی</a></li>
-                                            <li><a href="Search">تریکوبافی</a></li>
-                                            <li><a href="Search">مکرومه باقی</a></li>
-                                            <li><a href="Search">ترمه و گلدوزی</a></li>
-                                            <li><a href="Search">سوزن‌دوزی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">قلاب‌بافی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">تریکوبافی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">مکرومه باقی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">ترمه و گلدوزی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">سوزن‌دوزی</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="HBRSubmenuTitle">
-                                        <a href="Search">
+                                        <a href="<?=PATH_URL;?>search">
                                             هنرهای تجسمی
-                                            <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                                            <i class="fal fa-angle-left"></i>
                                         </a>
                                     </div>
                                     <div class="HBRSubmenuList">
                                         <ul>
-                                            <li><a href="Search">نگارگری</a></li>
-                                            <li><a href="Search">خوشنویسی</a></li>
-                                            <li><a href="Search">تذهیب</a></li>
-                                            <li><a href="Search">طراحی و نقاشی</a></li>
-                                            <li><a href="Search">سایر هنرهای تجسمی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">نگارگری</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">خوشنویسی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">تذهیب</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">طراحی و نقاشی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">سایر هنرهای تجسمی</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="HBRSubmenuTitle">
-                                        <a href="Search">
+                                        <a href="<?=PATH_URL;?>search">
                                             محصولات چوبی
-                                            <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                                            <i class="fal fa-angle-left"></i>
                                         </a>
                                     </div>
                                     <div class="HBRSubmenuList">
                                         <ul>
-                                            <li><a href="Search">قاب‌های دست‌ساز</a></li>
-                                            <li><a href="Search">معرق‌کاری</a></li>
-                                            <li><a href="Search">خاتم‌کاری</a></li>
-                                            <li><a href="Search">خراطی</a></li>
-                                            <li><a href="Search">حصیربافی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">قاب‌های دست‌ساز</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">معرق‌کاری</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">خاتم‌کاری</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">خراطی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">حصیربافی</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
-                                    <img src="./Asset/Images/MenuItemsImages/Handicrafts.png" alt="Vegetables" style="top: -28px;">
+                                    <img src="<?=PATH_URL_ASSET;?>images/menu_items/handi_crafts.png" alt="Handi Crafts" style="top: -28px;">
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <a href="Search">عطاری</a>
+                            <a href="<?=PATH_URL;?>search">عطاری</a>
                             <div class="HBRSubmenu">
                                 <div>
                                     <div class="HBRSubmenuTitle">
-                                        <a href="Search">
+                                        <a href="<?=PATH_URL;?>search">
                                             نوشیدنی‌ها
-                                            <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                                            <i class="fal fa-angle-left"></i>
                                         </a>
                                     </div>
                                     <div class="HBRSubmenuList">
                                         <ul>
-                                            <li><a href="Search">چای و دمنوش</a></li>
-                                            <li><a href="Search">قهوه و محصولات کافئینی</a></li>
-                                            <li><a href="Search">قهوه و محصولات کافئینی</a></li>
-                                            <li><a href="Search">نوشیدنی گازدار</a></li>
-                                            <li><a href="Search">آبمیوه و شربت</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">چای و دمنوش</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">قهوه و محصولات کافئینی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">قهوه و محصولات کافئینی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">نوشیدنی گازدار</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">آبمیوه و شربت</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="HBRSubmenuTitle">
-                                        <a href="Search">
+                                        <a href="<?=PATH_URL;?>search">
                                             عسل و و ارده‌جات
-                                            <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                                            <i class="fal fa-angle-left"></i>
                                         </a>
                                     </div>
                                     <div class="HBRSubmenuList">
                                         <ul>
-                                            <li><a href="Search">عسل</a></li>
-                                            <li><a href="Search">ژل رویال</a></li>
-                                            <li><a href="Search">حلوار ارده</a></li>
-                                            <li><a href="Search">کنجد عسلی</a></li>
-                                            <li><a href="Search">گرده گل</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">عسل</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">ژل رویال</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">حلوار ارده</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">کنجد عسلی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">گرده گل</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="HBRSubmenuTitle">
-                                        <a href="Search">
+                                        <a href="<?=PATH_URL;?>search">
                                             میوه و سبزیجات
-                                            <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                                            <i class="fal fa-angle-left"></i>
                                         </a>
                                     </div>
                                     <div class="HBRSubmenuList">
                                         <ul>
-                                            <li><a href="Search">میوه</a></li>
-                                            <li><a href="Search">سبزی و صیفیجات</a></li>
-                                            <li><a href="Search">قارچ خوراکی</a></li>
-                                            <li><a href="Search">سبزی خشک</a></li>
-                                            <li><a href="Search">ترشی و خیارشور</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">میوه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">سبزی و صیفیجات</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">قارچ خوراکی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">سبزی خشک</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">ترشی و خیارشور</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
-                                    <img src="./Asset/Images/MenuItemsImages/BasketVegetables.png" alt="Vegetables">
+                                    <img src="<?=PATH_URL_ASSET;?>images/menu_items/basket_vegetables.png" alt="Vegetables">
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <a href="Search">فرهنگی، آموزشی و سرگرمی</a>
+                            <a href="<?=PATH_URL;?>search">فرهنگی، آموزشی و سرگرمی</a>
                             <div class="HBRSubmenu">
                                 <div>
                                     <div class="HBRSubmenuTitle">
-                                        <a href="Search">
+                                        <a href="<?=PATH_URL;?>search">
                                             زنانه
-                                            <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                                            <i class="fal fa-angle-left"></i>
                                         </a>
                                     </div>
                                     <div class="HBRSubmenuList">
                                         <ul>
-                                            <li><a href="Search">لباس زنانه</a></li>
-                                            <li><a href="Search">لباس زیر زنانه</a></li>
-                                            <li><a href="Search">لباس ورزشی زنانه</a></li>
-                                            <li><a href="Search">کیف و کفش زنانه</a></li>
-                                            <li><a href="Search">اکسسوری زنانه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">لباس زنانه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">لباس زیر زنانه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">لباس ورزشی زنانه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">کیف و کفش زنانه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">اکسسوری زنانه</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="HBRSubmenuTitle">
-                                        <a href="Search">
+                                        <a href="<?=PATH_URL;?>search">
                                             مردانه
-                                            <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                                            <i class="fal fa-angle-left"></i>
                                         </a>
                                     </div>
                                     <div class="HBRSubmenuList">
                                         <ul>
-                                            <li><a href="Search">لباس مردانه</a></li>
-                                            <li><a href="Search">لباس ورزشی مردانه</a></li>
-                                            <li><a href="Search">لباس زیر مردانه</a></li>
-                                            <li><a href="Search">کیف و کفش مردانه</a></li>
-                                            <li><a href="Search">اکسسوری مردانه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">لباس مردانه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">لباس ورزشی مردانه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">لباس زیر مردانه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">کیف و کفش مردانه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">اکسسوری مردانه</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="HBRSubmenuTitle">
-                                        <a href="Search">
+                                        <a href="<?=PATH_URL;?>search">
                                             بچه‌گانه
-                                            <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                                            <i class="fal fa-angle-left"></i>
                                         </a>
                                     </div>
                                     <div class="HBRSubmenuList">
                                         <ul>
-                                            <li><a href="Search">لباس دخترانه</a></li>
-                                            <li><a href="Search">لباس پسرانه</a></li>
-                                            <li><a href="Search">کیف و کفش</a></li>
-                                            <li><a href="Search">لباس نوزاد</a></li>
-                                            <li><a href="Search">ملزومات جانبی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">لباس دخترانه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">لباس پسرانه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">کیف و کفش</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">لباس نوزاد</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">ملزومات جانبی</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
-                                    <img src="./Asset/Images/MenuItemsImages/Clothes.png" alt="Vegetables" style="top: -28px;">
+                                    <img src="<?=PATH_URL_ASSET;?>images/menu_items/clothes.png" alt="Clothes" style="top: -28px;">
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <a href="Search">ورزش و سفر</a>
+                            <a href="<?=PATH_URL;?>search">ورزش و سفر</a>
                             <div class="HBRSubmenu">
                                 <div>
                                     <div class="HBRSubmenuTitle">
-                                        <a href="Search">
+                                        <a href="<?=PATH_URL;?>search">
                                             فرش و تابلو
-                                            <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                                            <i class="fal fa-angle-left"></i>
                                         </a>
                                     </div>
                                     <div class="HBRSubmenuList">
                                         <ul>
-                                            <li><a href="Search">فرش، قالیچه</a></li>
-                                            <li><a href="Search">گلیم، جاجیم</a></li>
-                                            <li><a href="Search">پادری و روفرشی</a></li>
-                                            <li><a href="Search">فرش کودک</a></li>
-                                            <li><a href="Search">تابلوفرش</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">فرش، قالیچه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">گلیم، جاجیم</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">پادری و روفرشی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">فرش کودک</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">تابلوفرش</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="HBRSubmenuTitle">
-                                        <a href="Search">
+                                        <a href="<?=PATH_URL;?>search">
                                             کالای خواب
-                                            <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                                            <i class="fal fa-angle-left"></i>
                                         </a>
                                     </div>
                                     <div class="HBRSubmenuList">
                                         <ul>
-                                            <li><a href="Search">تشک و پتو</a></li>
-                                            <li><a href="Search">روتختی و ملحفه</a></li>
-                                            <li><a href="Search">بالش و کوسن</a></li>
-                                            <li><a href="Search">سرویس خواب</a></li>
-                                            <li><a href="Search">سایر کالای خواب</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">تشک و پتو</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">روتختی و ملحفه</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">بالش و کوسن</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">سرویس خواب</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">سایر کالای خواب</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="HBRSubmenuTitle">
-                                        <a href="Search">
+                                        <a href="<?=PATH_URL;?>search">
                                             پرده و مبلمان
-                                            <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                                            <i class="fal fa-angle-left"></i>
                                         </a>
                                     </div>
                                     <div class="HBRSubmenuList">
                                         <ul>
-                                            <li><a href="Search">مبل و میز</a></li>
-                                            <li><a href="Search">تخت خواب</a></li>
-                                            <li><a href="Search">صندلی</a></li>
-                                            <li><a href="Search">پرده و ملزومات</a></li>
-                                            <li><a href="Search">کمد و نظم‌دهنده</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">مبل و میز</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">تخت خواب</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">صندلی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">پرده و ملزومات</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">کمد و نظم‌دهنده</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
-                                    <img src="./Asset/Images/MenuItemsImages/Kitchen.png" alt="Vegetables" style="top: -28px;">
+                                    <img src="<?=PATH_URL_ASSET;?>images/menu_items/kitchen.png" alt="Kitchen" style="top: -28px;">
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <a href="Search">زیبایی و سلامتی</a>
+                            <a href="<?=PATH_URL;?>search">زیبایی و سلامتی</a>
                             <div class="HBRSubmenu">
                                 <div>
                                     <div class="HBRSubmenuTitle">
-                                        <a href="Search">
+                                        <a href="<?=PATH_URL;?>search">
                                             بافتنی و رودوزی
-                                            <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                                            <i class="fal fa-angle-left"></i>
                                         </a>
                                     </div>
                                     <div class="HBRSubmenuList">
                                         <ul>
-                                            <li><a href="Search">قلاب‌بافی</a></li>
-                                            <li><a href="Search">تریکوبافی</a></li>
-                                            <li><a href="Search">مکرومه باقی</a></li>
-                                            <li><a href="Search">ترمه و گلدوزی</a></li>
-                                            <li><a href="Search">سوزن‌دوزی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">قلاب‌بافی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">تریکوبافی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">مکرومه باقی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">ترمه و گلدوزی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">سوزن‌دوزی</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="HBRSubmenuTitle">
-                                        <a href="Search">
+                                        <a href="<?=PATH_URL;?>search">
                                             هنرهای تجسمی
-                                            <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                                            <i class="fal fa-angle-left"></i>
                                         </a>
                                     </div>
                                     <div class="HBRSubmenuList">
                                         <ul>
-                                            <li><a href="Search">نگارگری</a></li>
-                                            <li><a href="Search">خوشنویسی</a></li>
-                                            <li><a href="Search">تذهیب</a></li>
-                                            <li><a href="Search">طراحی و نقاشی</a></li>
-                                            <li><a href="Search">سایر هنرهای تجسمی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">نگارگری</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">خوشنویسی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">تذهیب</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">طراحی و نقاشی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">سایر هنرهای تجسمی</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="HBRSubmenuTitle">
-                                        <a href="Search">
+                                        <a href="<?=PATH_URL;?>search">
                                             محصولات چوبی
-                                            <img src="./Asset/Icons/MenuItemsIcons/LeftArrow.png" alt="arrow">
+                                            <i class="fal fa-angle-left"></i>
                                         </a>
                                     </div>
                                     <div class="HBRSubmenuList">
                                         <ul>
-                                            <li><a href="Search">قاب‌های دست‌ساز</a></li>
-                                            <li><a href="Search">معرق‌کاری</a></li>
-                                            <li><a href="Search">خاتم‌کاری</a></li>
-                                            <li><a href="Search">خراطی</a></li>
-                                            <li><a href="Search">حصیربافی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">قاب‌های دست‌ساز</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">معرق‌کاری</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">خاتم‌کاری</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">خراطی</a></li>
+                                            <li><a href="<?=PATH_URL;?>search">حصیربافی</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
-                                    <img src="./Asset/Images/MenuItemsImages/Handicrafts.png" alt="Vegetables" style="top: -28px;">
+                                    <img src="<?=PATH_URL_ASSET;?>images/menu_items/handi_crafts.png" alt="Handi Crafts" style="top: -28px;">
                                 </div>
                             </div>
                         </li>

@@ -1,1 +1,1 @@
-<h1>Error <?=$parameters;?></h1>
+<h1>Error <?=$parameters["ErrorMessage"];?></h1>

@@ -43,7 +43,7 @@
             <table>
                 <tr>
                     <td>
-                        <img src="./Asset/Images/Products/Product1.jpeg" alt="Product1">
+                        <img src="<?=PATH_URL_ASSET;?>images/products/product1.jpeg" alt="Product1">
                         <span>
                             <a href="#">پک دمنوش گیاهی با عصاره خاص (خانگی)</a>
                             <span>موجود</span>
@@ -53,7 +53,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <img src="./Asset/Images/Products/Product2.jpeg" alt="Product2">
+                        <img src="<?=PATH_URL_ASSET;?>images/products/product3.jpeg" alt="Product2">
                         <span>
                             <a href="#">پک دمنوش گیاهی با عصاره خاص (خانگی)</a>
                             <span>موجود</span>
@@ -63,7 +63,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <img src="./Asset/Images/Products/Product3.jpeg" alt="Product3">
+                        <img src="<?=PATH_URL_ASSET;?>images/products/product2.jpeg" alt="Product3">
                         <span>
                             <a href="#">پک دمنوش گیاهی با عصاره خاص (خانگی)</a>
                             <span>موجود</span>

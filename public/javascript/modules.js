@@ -10,13 +10,6 @@ $(document).ready(function()
     {
         $(" > .HBRSubmenu", this).stop(true).fadeOut();
     });
-    $(SubmenuTitle).hover(function()
-    {
-        $(".HBRSubmenuTitle > a > img", this).attr("src", "./Asset/Icons/MenuItemsIcons/LeftArrowRed.png");
-    }, function()
-    {
-        $(".HBRSubmenuTitle > a > img", this).attr("src", "./Asset/Icons/MenuItemsIcons/LeftArrow.png");
-    });
 
     //Menu Mobile Mechanism
     let MenuIcon = $(".HeaderBottomRight > span");
