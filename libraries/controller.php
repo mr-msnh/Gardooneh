@@ -85,6 +85,7 @@ class Controller
     private function handleRequestedParam()
     {
         $this->requestedParam = Functions::convertToCleanArray($this->param, "-", 5);
+        
     }
 
     private function handleRequestedAction()

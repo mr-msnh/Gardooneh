@@ -23,9 +23,19 @@ class Functions
         }
         else
         {
-            $arrayHandler = [" "];
+            $arrayHandler = [null];
         }
-        return array_filter($arrayHandler);
+
+        $arrayResult = array_filter($arrayHandler);
+
+        if(!empty($arrayResult))
+        {
+            return $arrayResult;
+        }
+        else
+        {
+            return [null];
+        }
     }
 
     public static function convertEngToFaDigit($digit)
@@ -94,6 +104,28 @@ class Functions
         $result = implode("", $digitsArray);
 
         return $result;
+    }
+
+    public static function checkEmptyVariables($arrayVariables)
+    {
+        foreach ($arrayVariables as $variable)
+        {
+            if(is_array($variable))
+            {
+                $cleanVariable = array_filter($variable);
+            }
+            else if (is_string($variable))
+            {
+                $cleanVariable = trim($variable);
+            }
+
+            if (empty($cleanVariable))
+            {
+                return false;
+            }
+        }
+
+        return true;
     }
 
     public static function checkInteger($input) {}

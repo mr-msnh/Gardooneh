@@ -1,6 +1,6 @@
 <div class="Main-Product">
     <div class="Product-Gallery">
-        <div class="Main-Image"><img src="<?=PATH_URL_ASSET;?>images/products/product1.jpeg" alt="Slide1" /></div>
+        <div class="Main-Image"><img src="<?=PATH_URL_ASSET.$parameters["Product"][0]["cover_image"];?>" alt="<?=$parameters["Product"][0]["name"];?>" /></div>
         <div class="Other-Image">
             <ul>
                 <li><img src="<?=PATH_URL_ASSET;?>images/products/product2.jpeg" alt="Slide1"></li>
@@ -11,11 +11,11 @@
         </div>
     </div>
     <div class="Product-Intro">
-        <h2>دمنوش گیاهی</h2>
+        <h2><?=$parameters["Product"][0]["name"];?></h2>
         <div class="Quick-Review">
             <div class="Review-Item">
                 <i class="far fa-receipt"></i>
-                <span>۳۰+ فروش</span>
+                <span><?=Functions::convertEngToFaNumber($parameters["Product"][0]["total_sale"]);?>+ فروش</span>
             </div>
             <div class="Review-Item">
                 <i class="far fa-box-open"></i>
@@ -32,8 +32,18 @@
             <p>به ســراســر ایرانـــــ</p>
         </div>
         <form action="Card" method="POST" class="AddCart">
-            <span class="Off-Price">۷۵۰.۰۰۰</span>
-            <span class="Main-Price">۵۴۰.۰۰۰ تومان</span>
+            <?php if (isset($parameters["Product"][0]["price_off"]) && !empty($parameters["Product"][0]["price_off"])) { ?>
+
+            <span class="Off-Price"><?=Functions::seperateDigitsBySpatialValue($parameters["Product"][0]["price"]);?> تومان</span>
+            <span class="Main-Price"><?=Functions::seperateDigitsBySpatialValue($parameters["Product"][0]["price_off"]);?> تومان</span>
+            
+            <?php } else {?>
+
+            <span class="Off-Price"></span>
+            <span class="Main-Price"><?=Functions::seperateDigitsBySpatialValue($parameters["Product"][0]["price"]);?> تومان</span>
+
+            <?php } ?>
+
             <input type="submit" value="خرید">
         </form>
         <div class="Quick-Message">
@@ -57,7 +67,7 @@
     <div class="Store-Intro">
         <h5>نگاه کلی محصول</h5>
         <ul>
-            <li><i class="far fa-store fa-lg"></i>محصولات عطاری</li>
+            <li><i class="far fa-store fa-lg"></i><?=$parameters["Product"][0]["brand"];?></li>
             <li><i class="far fa-shield-check fa-lg"></i>ضمانت اصالت محصول</li>
             <li><i class="far fa-inventory fa-lg"></i>موجود در انبار گردونه</li>
             <li><i class="far fa-tags fa-lg"></i>بهترین قیمت ۳۰ روز گذشته</li>

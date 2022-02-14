@@ -49,8 +49,8 @@
 
                 <?php endforeach; ?>
             </div>
-            <i class="fas fa-caret-left fa-3x SpecialOfferItemsNext"></i>
-            <i class="fas fa-caret-left fa-3x SpecialOfferItemsPrevious"></i>
+            <i class="fad fa-angle-left fa-3x SpecialOfferItemsNext"></i>
+            <i class="fad fa-angle-left fa-3x SpecialOfferItemsPrevious"></i>
         </div>
     </div>
 </div>

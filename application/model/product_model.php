@@ -23,4 +23,13 @@ class Product_Model extends Model
 
         return $result;
     }
+
+    public function getProduct($productId)
+    {
+        $query = "SELECT * FROM `tbl_products` WHERE `id` = ? AND `active` = 1";
+
+        $result = parent::queryExceute($query, [$productId]);
+
+        return $result;
+    }
 }
